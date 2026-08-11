@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#b03a2e">
+<link rel="icon" href="data:,">
+<title>Inglese A1 → A2 · percorso moto</title>
+<style>
+  :root {
+    --acc: #b03a2e; --acc-chiaro: #f7e9e7; --ok: #2e7d32; --ok-bg: #e8f3e9;
+    --ko: #b3372f; --ko-bg: #faeae8; --carta: #ffffff; --sfondo: #f2f2f0;
+    --testo: #24272a; --grigio: #6b7278; --bordo: #dcdcd8;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; background: var(--sfondo); color: var(--testo); line-height: 1.55;
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  #app { max-width: 640px; margin: 0 auto; padding: .9rem .9rem 4rem; }
+  h1 { font-size: 1.25rem; margin: .4rem 0 .1rem; }
+  h2 { font-size: 1.05rem; margin: .3rem 0; }
+  .sotto { color: var(--grigio); font-size: .85rem; margin: 0 0 1rem; }
+  .card { background: var(--carta); border: 1px solid var(--bordo); border-radius: 12px;
+          padding: 1rem; margin: .7rem 0; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+  .card.cliccabile { cursor: pointer; }
+  .card.cliccabile:active { background: var(--acc-chiaro); }
+  .card.bloccata { opacity: .55; }
+  button { font: inherit; border: 1px solid var(--bordo); background: var(--carta); color: var(--testo);
+           border-radius: 10px; padding: .65rem 1rem; cursor: pointer; touch-action: manipulation; }
+  button.primario { background: var(--acc); border-color: var(--acc); color: #fff; font-weight: 600; }
+  button.audio { font-size: 1.05rem; }
+  button:disabled { opacity: .45; cursor: default; }
+  .opzione { display: block; width: 100%; text-align: left; margin: .45rem 0; padding: .75rem .9rem;
+             border-radius: 10px; border: 1.5px solid var(--bordo); background: var(--carta); font-size: 1rem; }
+  .opzione.giusta { border-color: var(--ok); background: var(--ok-bg); }
+  .opzione.sbagliata { border-color: var(--ko); background: var(--ko-bg); }
+  input[type=text], textarea { font: inherit; width: 100%; padding: .7rem .8rem;
+             border: 1.5px solid var(--bordo); border-radius: 10px; background: #fff; color: var(--testo); }
+  textarea { min-height: 5.5rem; resize: vertical; }
+  input:focus, textarea:focus { outline: 2px solid var(--acc); border-color: var(--acc); }
+  .barra { height: 5px; background: var(--bordo); border-radius: 3px; overflow: hidden; margin: .35rem 0; }
+  .barra > div { height: 100%; background: var(--acc); border-radius: 3px; transition: width .3s; }
+  .riga { display: flex; gap: .6rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+  .esito { border-radius: 10px; padding: .8rem .9rem; margin-top: .8rem; font-size: .95rem; }
+  .esito.ok { background: var(--ok-bg); border: 1px solid #bcd9be; }
+  .esito.ko { background: var(--ko-bg); border: 1px solid #eac5c1; }
+  .esito.neutro { background: var(--acc-chiaro); border: 1px solid var(--bordo); }
+  .esito .titolo-esito { font-weight: 700; }
+  .giorno { display: inline-block; background: var(--acc); color: #fff; border-radius: 8px;
+            padding: .1rem .55rem; font-size: .78rem; font-weight: 600; letter-spacing: .02em; }
+  .testo-item { font-size: 1.05rem; margin: .6rem 0 .8rem; }
+  .istruzione { color: var(--grigio); font-size: .88rem; margin-bottom: .2rem; }
+  .mini { color: var(--grigio); font-size: .82rem; }
+  .teoria table { border-collapse: collapse; width: 100%; font-size: .88rem; margin: .6rem 0; }
+  .teoria th, .teoria td { border: 1px solid var(--bordo); padding: .4rem .5rem; text-align: left; }
+  .teoria th { background: var(--acc-chiaro); }
+  .intest { display: flex; align-items: center; gap: .5rem; margin-top: .3rem; }
+  .indietro { font-size: 1.3rem; line-height: 1; border: none; background: none; color: var(--acc);
+              cursor: pointer; padding: .3rem .5rem .3rem 0; }
+  .spunta { color: var(--ok); font-weight: 700; }
+  .azioni { display: flex; gap: .6rem; margin-top: .9rem; flex-wrap: wrap; }
+  .contaparole { text-align: right; }
+  .punteggio { font-size: 2rem; font-weight: 700; text-align: center; margin: .4rem 0; }
+  .aiuto-it { color: var(--grigio); font-style: italic; }
+  #esporta-area { width: 100%; min-height: 10rem; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .8rem; }
+  .centrato { text-align: center; }
+  @media (min-width: 700px) { #app { padding-top: 2rem; } }
+</style>
+</head>
+<body>
+<div id="app"><p style="padding:1rem">Caricamento…</p></div>
+
+<script src="esercizi.js"></script>
+<script>
+'use strict';
+
+/* ============================== stato ============================== */
+
+const CHIAVE_LS = 'inglese-a1a2-moto-v1';
+let DATI = null;
+let rotta = { vista: 'home' };
+let TEST = null; // stato del test in corso: {uid, idx, risposte:[]}
+
+function caricaProgressi() {
+  try { return JSON.parse(localStorage.getItem(CHIAVE_LS)) || {}; }
+  catch (e) { return {}; }
+}
+function salvaProgressi(p) { localStorage.setItem(CHIAVE_LS, JSON.stringify(p)); }
+let prog = caricaProgressi();
+
+function recUnita(uid) { prog[uid] = prog[uid] || { item: {}, test: null, teoria: false }; return prog[uid]; }
+function statoItem(uid, sez, n) { return (prog[uid]?.item || {})[sez + '.' + n] || null; }
+function segnaItem(uid, sez, n, stato) { recUnita(uid).item[sez + '.' + n] = stato; salvaProgressi(prog); }
+function testSuperato(uid) { return !!(prog[uid]?.test?.superato); }
+function unitaSbloccata(u) {
+  if (u.numero === 1) return true;
+  const prec = DATI.unita.find(x => x.numero === u.numero - 1);
+  return prec ? testSuperato(prec.id) : true;
+}
+
+/* ============================ utilità ============================ */
+
+function el(tag, attrs, ...figli) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === 'html') e.innerHTML = v;
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+    else if (k === 'class') e.className = v;
+    else e.setAttribute(k, v);
+  }
+  for (const f of figli) if (f != null) e.append(f);
+  return e;
+}
+function testoPuro(html) { const d = document.createElement('div'); d.innerHTML = html; return d.textContent.trim(); }
+
+function normalizza(s) {
+  s = (s || '').toLowerCase().trim()
+    .replace(/[’‘`´]/g, "'")
+    .replace(/\s+/g, ' ')
+    .replace(/[.,!?;:]+$/, '').trim();
+  const regole = [
+    [/(^|\s)i'm\b/g, '$1i am'], [/(^|\s)'m\b/g, '$1am'],
+    [/(^|\s)won't\b/g, '$1will not'], [/(^|\s)can't\b/g, '$1cannot'],
+    [/n't\b/g, ' not'], [/'re\b/g, ' are'], [/'ve\b/g, ' have'], [/'ll\b/g, ' will'],
+    [/(^|\s)(it|he|she|that|there|who|what)'s\b/g, '$1$2 is'],
+  ];
+  for (const [re, sost] of regole) s = s.replace(re, sost);
+  return s.replace(/\s+/g, ' ').trim();
+}
+function rispostaCombacia(data, accettate) {
+  const dn = normalizza(data);
+  const dnSenzaSogg = dn.replace(/^(i|you|he|she|it|we|they) /, '');
+  for (const a of accettate) {
+    const an = normalizza(a);
+    if (dn === an || dnSenzaSogg === an) return true;
+    if (dn.replace(/[.,!?']/g, '') === an.replace(/[.,!?']/g, '')) return true;
+  }
+  return false;
+}
+
+/* --------------------------- voce: TTS e ASR --------------------------- */
+
+function ttsDisponibile() { return 'speechSynthesis' in window; }
+let vociPronte = false;
+if (ttsDisponibile()) {
+  speechSynthesis.onvoiceschanged = () => { vociPronte = true; };
+  speechSynthesis.getVoices();
+}
+function parla(testo) {
+  if (!ttsDisponibile()) return false;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(testo);
+  u.lang = 'en-GB';
+  u.rate = 0.9;
+  const voci = speechSynthesis.getVoices();
+  const v = voci.find(x => x.lang === 'en-GB') || voci.find(x => x.lang && x.lang.startsWith('en'));
+  if (v) u.voice = v;
+  speechSynthesis.speak(u);
+  return true;
+}
+const ASR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+function asrDisponibile() { return !!ASR; }
+function ascolta(cb, cbErr) {
+  const r = new ASR();
+  r.lang = 'en-GB';
+  r.interimResults = false;
+  r.maxAlternatives = 3;
+  r.onresult = ev => {
+    const alt = [];
+    for (const res of ev.results[0] ? ev.results[0] : []) alt.push(res.transcript);
+    cb(alt.length ? alt : ['']);
+  };
+  r.onerror = ev => cbErr(ev.error || 'errore');
+  r.onend = () => {};
+  try { r.start(); } catch (e) { cbErr('start'); }
+  return r;
+}
+function somiglianza(detto, atteso) {
+  const A = normalizza(detto).replace(/[.,!?]/g, '').split(' ').filter(Boolean);
+  const B = normalizza(atteso).replace(/[.,!?]/g, '').split(' ').filter(Boolean);
+  if (!B.length) return 0;
+  const resto = [...A];
+  let trovate = 0;
+  for (const w of B) {
+    const i = resto.indexOf(w);
+    if (i !== -1) { trovate++; resto.splice(i, 1); }
+  }
+  return trovate / B.length;
+}
+
+function itemsDiSezione(sez) { return (sez.item || []).map(it => ({ ...it })); }
+function conteggiUnita(u) {
+  let fatti = 0, ko = 0;
+  u.sezioni.forEach((sez, si) => {
+    for (const it of sez.item) {
+      const st = statoItem(u.id, si, it.n);
+      if (st) { fatti++; if (st.s === 'ko') ko++; }
+    }
+  });
+  return { fatti, ko, totale: u.totaleItem };
+}
+
+function render() {
+  const app = document.getElementById('app');
+  app.replaceChildren();
+  if (rotta.vista === 'home') app.append(vistaHome());
+  else if (rotta.vista === 'unita') app.append(vistaUnita(rotta.uid));
+  else if (rotta.vista === 'teoria') app.append(vistaTeoria(rotta.uid));
+  else if (rotta.vista === 'sezione') app.append(vistaSezione(rotta.uid, rotta.sez));
+  else if (rotta.vista === 'test') app.append(vistaTest(rotta.uid));
+  else if (rotta.vista === 'esporta') app.append(vistaEsporta());
+  window.scrollTo(0, 0);
+}
+function vai(nuova) { if (ttsDisponibile()) speechSynthesis.cancel(); rotta = nuova; render(); }
+
+/* ============================== home ============================== */
+
+function vistaHome() {
+  const box = el('div', {});
+  box.append(
+    el('h1', {}, 'Inglese A1 → A2 · percorso moto'),
+    el('p', { class: 'sotto' }, 'Una unità al giorno indicato · supera il test per sbloccare la successiva')
+  );
+  for (const u of DATI.unita) {
+    const sbloccata = unitaSbloccata(u);
+    const c = conteggiUnita(u);
+    const perc = c.totale ? Math.round(100 * c.fatti / c.totale) : 0;
+    const t = prog[u.id]?.test;
+    const stato = t?.superato
+      ? el('span', { class: 'spunta' }, `✓ test ${t.punteggio}%`)
+      : (sbloccata ? el('span', { class: 'mini' }, `${c.fatti}/${c.totale}`) : el('span', { class: 'mini' }, '🔒'));
+    const card = el('div', { class: 'card' + (sbloccata ? ' cliccabile' : ' bloccata') },
+      el('div', { class: 'riga' },
+        el('span', { class: 'giorno' }, u.giorni),
+        stato),
+      el('h2', {}, `Unit ${u.numero} — ${u.titolo}`),
+      el('div', { class: 'mini' }, u.descrizione || ''),
+      el('div', { class: 'barra' }, el('div', { style: `width:${perc}%` }))
+    );
+    if (sbloccata) card.addEventListener('click', () => vai({ vista: 'unita', uid: u.id }));
+    else card.append(el('div', { class: 'mini', style: 'margin-top:.4rem' }, `Si sblocca superando il test della Unit ${u.numero - 1} (minimo ${DATI.sogliaTest}%).`));
+    box.append(card);
+  }
+  box.append(el('div', { class: 'azioni' },
+    el('button', { onclick: () => vai({ vista: 'esporta' }) }, 'Esporta gli errori'),
+    el('button', { onclick: () => { if (confirm('Cancellare tutti i progressi salvati su questo dispositivo?')) { prog = {}; salvaProgressi(prog); render(); } } }, 'Azzera tutto')
+  ));
+  return box;
+}
+
+/* ============================== unità ============================== */
+
+function vistaUnita(uid) {
+  const u = DATI.unita.find(x => x.id === uid);
+  const box = el('div', {});
+  box.append(
+    el('div', { class: 'intest' },
+      el('button', { class: 'indietro', onclick: () => vai({ vista: 'home' }) }, '‹'),
+      el('h1', {}, `Unit ${u.numero} — ${u.titolo}`)
+    ),
+    el('p', { class: 'sotto' }, u.giorni + ' · ' + (u.descrizione || ''))
+  );
+
+  const teoriaLetta = !!prog[uid]?.teoria;
+  box.append(el('div', { class: 'card cliccabile', onclick: () => vai({ vista: 'teoria', uid }) },
+    el('div', { class: 'riga' },
+      el('strong', {}, '📖 La teoria — leggila prima degli esercizi'),
+      teoriaLetta ? el('span', { class: 'spunta' }, '✓') : el('span', { class: 'mini' }, 'da leggere'))
+  ));
+
+  u.sezioni.forEach((sez, si) => {
+    const fatti = sez.item.filter(it => statoItem(uid, si, it.n)).length;
+    box.append(el('div', { class: 'card cliccabile', onclick: () => vai({ vista: 'sezione', uid, sez: si }) },
+      el('div', { class: 'riga' },
+        el('strong', {}, sez.titolo),
+        fatti >= sez.item.length ? el('span', { class: 'spunta' }, '✓') : el('span', { class: 'mini' }, `${fatti}/${sez.item.length}`))
+    ));
+  });
+
+  const t = prog[uid]?.test;
+  const cardTest = el('div', { class: 'card cliccabile', onclick: () => { TEST = null; vai({ vista: 'test', uid }); } },
+    el('div', { class: 'riga' },
+      el('strong', {}, '🏁 Test di sbarramento — 10 domande, minimo ' + DATI.sogliaTest + '%'),
+      t ? el('span', { class: t.superato ? 'spunta' : 'mini' }, (t.superato ? '✓ ' : '✗ ') + t.punteggio + '%') : el('span', { class: 'mini' }, 'da fare'))
+  );
+  if (t && !t.superato) cardTest.append(el('div', { class: 'mini', style: 'margin-top:.3rem' }, 'Puoi ripeterlo quante volte vuoi: ripassa la teoria e riprova.'));
+  box.append(cardTest);
+
+  box.append(el('div', { class: 'azioni' },
+    el('button', { onclick: () => { if (confirm('Ricominciare questa unità da zero (test compreso)?')) { delete prog[uid]; salvaProgressi(prog); render(); } } }, 'Ricomincia unità')
+  ));
+  return box;
+}
+
+function vistaTeoria(uid) {
+  const u = DATI.unita.find(x => x.id === uid);
+  const box = el('div', {});
+  box.append(el('div', { class: 'intest' },
+    el('button', { class: 'indietro', onclick: () => vai({ vista: 'unita', uid }) }, '‹'),
+    el('h1', {}, 'La teoria — Unit ' + u.numero)
+  ));
+  for (const t of u.teoria) {
+    const c = el('div', { class: 'card teoria' }, el('h2', {}, t.titolo), el('div', { html: t.html }));
+    // pulsante ascolto per gli esempi in corsivo
+    if (ttsDisponibile()) {
+      const esempi = [...c.querySelectorAll('em')].map(e => e.textContent).filter(x => /[a-z]/i.test(x) && x.split(' ').length > 1);
+      if (esempi.length) c.append(el('button', { class: 'audio', onclick: () => parla(esempi.join('. ')) }, '🔊 Ascolta gli esempi'));
+    }
+    box.append(c);
+  }
+  box.append(el('div', { class: 'azioni' },
+    el('button', { class: 'primario', onclick: () => { recUnita(uid).teoria = true; salvaProgressi(prog); vai({ vista: 'unita', uid }); } }, 'Letto, vado agli esercizi ✓')
+  ));
+  return box;
+}
+
+/* ============================= sezione ============================= */
+
+function vistaSezione(uid, si) {
+  const u = DATI.unita.find(x => x.id === uid);
+  const sez = u.sezioni[si];
+  const box = el('div', {});
+  box.append(el('div', { class: 'intest' },
+    el('button', { class: 'indietro', onclick: () => vai({ vista: 'unita', uid }) }, '‹'),
+    el('h1', {}, sez.titolo)
+  ));
+  if (sez.intro) box.append(el('p', { class: 'sotto' }, sez.intro));
+
+  const idx = sez.item.findIndex(it => !statoItem(uid, si, it.n));
+  if (idx === -1) {
+    let ok = 0, ko = 0, fatto = 0;
+    for (const it of sez.item) {
+      const st = statoItem(uid, si, it.n);
+      if (st.s === 'ok') ok++; else if (st.s === 'ko') ko++; else fatto++;
+    }
+    const fine = el('div', { class: 'card centrato' },
+      el('h2', {}, 'Sezione completata'),
+      el('p', {}, `${ok} giuste · ${ko} da rivedere` + (fatto ? ` · ${fatto} in autonomia` : '')),
+      el('div', { class: 'azioni', style: 'justify-content:center' },
+        el('button', { onclick: () => { for (const it of sez.item) delete prog[uid].item[si + '.' + it.n]; salvaProgressi(prog); render(); } }, 'Rifai la sezione'),
+        el('button', { class: 'primario', onclick: () => vai({ vista: 'unita', uid }) }, 'Torna all\'unità ›')));
+    box.append(fine);
+    return box;
+  }
+
+  const it = sez.item[idx];
+  box.append(
+    el('div', { class: 'mini centrato' }, `${idx + 1} di ${sez.item.length}`),
+    el('div', { class: 'barra' }, el('div', { style: `width:${Math.round(100 * idx / sez.item.length)}%` })),
+    schedaItem(it, (stato) => segnaItem(uid, si, it.n, stato), () => render(), false)
+  );
+  return box;
+}
+
+/* =========================== scheda item =========================== */
+/* inTest=true: niente spiegazioni durante, callback registra e avanza. */
+
+function schedaItem(it, salva, avanti, inTest) {
+  const card = el('div', { class: 'card' });
+  const dopo = (stato, blocco) => {
+    salva(stato);
+    if (!inTest && blocco) card.append(blocco);
+    card.querySelectorAll('input,textarea,button.opzione,button[data-azione]').forEach(x => x.disabled = true);
+    if (inTest) { setTimeout(avanti, stato.s === 'ok' ? 350 : 350); }
+    else card.append(el('div', { class: 'azioni' }, el('button', { class: 'primario', onclick: avanti }, 'Avanti ›')));
+  };
+  const esitoOk = extra => el('div', { class: 'esito ok' }, el('div', { class: 'titolo-esito' }, 'Giusto!'), extra ? el('div', { html: extra }) : null);
+  const esitoKo = (corretta, extra) => el('div', { class: 'esito ko' },
+    el('div', { class: 'titolo-esito' }, 'Non proprio.'),
+    el('div', {}, 'Risposta corretta: ', el('strong', { html: corretta })),
+    extra ? el('div', { html: extra }) : null);
+
+  const bottoneAudio = (testoTts) => el('button', { class: 'audio', 'data-azione': '1', onclick: () => {
+    if (!parla(testoTts)) alert('Audio non disponibile su questo browser.');
+  } }, '🔊 Ascolta');
+
+  if (it.tipo === 'mc' || it.tipo === 'ascolta-mc') {
+    if (it.tipo === 'ascolta-mc') card.append(bottoneAudio(it.tts), ttsDisponibile() ? null : el('div', { class: 'mini' }, 'Audio non disponibile: la frase era “' + it.tts + '”.'));
+    if (it.testo) card.append(el('div', { class: 'testo-item', html: it.testo }));
+    it.opzioni.forEach((opz, i) => {
+      card.append(el('button', { class: 'opzione', html: String.fromCharCode(97 + i) + ') ' + opz, onclick: ev => {
+        const giusta = i === it.corretta;
+        ev.currentTarget.classList.add(giusta ? 'giusta' : 'sbagliata');
+        if (!giusta) card.querySelectorAll('.opzione')[it.corretta].classList.add('giusta');
+        dopo({ s: giusta ? 'ok' : 'ko', d: testoPuro(opz), c: testoPuro(it.opzioni[it.corretta]) },
+          giusta ? esitoOk(it.spiegazione) : esitoKo(it.opzioni[it.corretta], it.spiegazione));
+      } }));
+    });
+
+  } else if (it.tipo === 'vf') {
+    card.append(el('div', { class: 'testo-item', html: it.testo }));
+    const scegli = (val, ev) => {
+      const giusta = val === it.risposta;
+      ev.currentTarget.classList.add(giusta ? 'giusta' : 'sbagliata');
+      dopo({ s: giusta ? 'ok' : 'ko', d: val === 'V' ? 'Vero' : 'Falso', c: it.risposta === 'V' ? 'Vero' : 'Falso' },
+        giusta ? esitoOk(it.risposta === 'F' ? it.spiegazione : '') : esitoKo(it.risposta === 'V' ? 'Vero' : 'Falso', it.spiegazione));
+    };
+    card.append(el('button', { class: 'opzione', onclick: ev => scegli('V', ev) }, 'Vero'),
+                el('button', { class: 'opzione', onclick: ev => scegli('F', ev) }, 'Falso'));
+
+  } else if (it.tipo === 'gap' || it.tipo === 'dettato') {
+    if (it.tipo === 'dettato') {
+      card.append(el('div', { class: 'testo-item' }, 'Ascolta e scrivi quello che senti.'));
+      card.append(bottoneAudio(it.tts));
+      if (!ttsDisponibile()) card.append(el('div', { class: 'mini' }, 'Audio non disponibile su questo browser: copia la frase “' + it.tts + '”.'));
+    } else {
+      card.append(el('div', { class: 'testo-item', html: it.testo }));
+    }
+    const inp = el('input', { type: 'text', autocomplete: 'off', autocapitalize: 'off', placeholder: 'Scrivi qui…', style: 'margin-top:.6rem' });
+    const controlla = () => {
+      if (!inp.value.trim()) return;
+      const acc = it.accettate || [it.tts];
+      const giusta = rispostaCombacia(inp.value, acc);
+      dopo({ s: giusta ? 'ok' : 'ko', d: inp.value.trim(), c: acc[0] },
+        giusta ? esitoOk(it.spiegazione) : esitoKo(acc[0], it.spiegazione));
+    };
+    inp.addEventListener('keydown', e => { if (e.key === 'Enter') controlla(); });
+    card.append(inp, el('div', { class: 'azioni' }, el('button', { class: 'primario', 'data-azione': '1', onclick: controlla }, 'Controlla')));
+
+  } else if (it.tipo === 'parla') {
+    card.append(
+      el('div', { class: 'testo-item' }, 'Ripeti ad alta voce: ', el('strong', {}, it.frase)),
+      it.aiuto ? el('div', { class: 'aiuto-it' }, it.aiuto) : null,
+      el('div', { class: 'azioni' }, bottoneAudio(it.frase))
+    );
+    if (asrDisponibile()) {
+      const stato = el('div', { class: 'mini', style: 'margin-top:.5rem' }, '');
+      const bMic = el('button', { class: 'primario', 'data-azione': '1', onclick: () => {
+        stato.textContent = '🎤 Ti ascolto… parla ora.';
+        bMic.disabled = true;
+        ascolta(alts => {
+          bMic.disabled = false;
+          const migliore = alts.reduce((m, a) => somiglianza(a, it.frase) > somiglianza(m, it.frase) ? a : m, alts[0] || '');
+          const p = somiglianza(migliore, it.frase);
+          stato.textContent = '';
+          const dettoRiga = el('div', {}, 'Ho capito: ', el('em', {}, migliore || '(niente)'));
+          if (p >= 0.75) {
+            dopo({ s: 'ok', d: migliore, c: it.frase }, el('div', { class: 'esito ok' }, el('div', { class: 'titolo-esito' }, 'Bene! Pronuncia riconosciuta.'), dettoRiga));
+          } else if (p >= 0.4) {
+            stato.replaceChildren(dettoRiga, el('div', {}, 'Ci siamo quasi: riascolta il modello e riprova, oppure valutati tu.'));
+            mostraAutovalutazione();
+          } else {
+            stato.replaceChildren(dettoRiga, el('div', {}, 'Non ho riconosciuto la frase: riprova, oppure valutati tu.'));
+            mostraAutovalutazione();
+          }
+        }, err => {
+          bMic.disabled = false;
+          stato.textContent = 'Microfono non disponibile (' + err + '): valutati da solo qui sotto.';
+          mostraAutovalutazione();
+        });
+      } }, '🎤 Ripeti e fatti ascoltare');
+      let autoMostrata = false;
+      const mostraAutovalutazione = () => {
+        if (autoMostrata) return; autoMostrata = true;
+        card.append(el('div', { class: 'azioni' },
+          el('button', { onclick: () => dopo({ s: 'ok', d: '(speaking)', c: it.frase }, esitoOk('')) }, 'L\'ho detta bene ✓'),
+          el('button', { onclick: () => dopo({ s: 'ko', d: '(speaking)', c: it.frase }, el('div', { class: 'esito neutro' }, 'Segnata da rivedere: riascoltala domani.')) }, 'Da rivedere ✗')));
+      };
+      card.append(el('div', { class: 'azioni' }, bMic), stato);
+    } else {
+      card.append(el('div', { class: 'mini' }, 'Su questo browser il riconoscimento vocale non c\'è: ascolta il modello, ripeti ad alta voce e valutati.'),
+        el('div', { class: 'azioni' },
+          el('button', { class: 'primario', 'data-azione': '1', onclick: () => dopo({ s: 'ok', d: '(speaking)', c: it.frase }, esitoOk('')) }, 'L\'ho detta bene ✓'),
+          el('button', { 'data-azione': '1', onclick: () => dopo({ s: 'ko', d: '(speaking)', c: it.frase }, el('div', { class: 'esito neutro' }, 'Segnata da rivedere.')) }, 'Da rivedere ✗')));
+    }
+
+  } else if (it.tipo === 'aperta') {
+    card.append(el('div', { class: 'testo-item', html: it.testo }));
+    const ta = el('textarea', { placeholder: 'Scrivi la tua risposta…' });
+    const bott = el('button', { class: 'primario', 'data-azione': '1', onclick: () => {
+      if (!ta.value.trim()) return;
+      card.append(el('div', { class: 'esito neutro' },
+        el('div', { class: 'titolo-esito' }, 'Soluzione'),
+        el('div', { html: it.modello }),
+        it.spiegazione ? el('div', { class: 'mini', html: it.spiegazione }) : null,
+        el('div', { class: 'azioni' },
+          el('button', { onclick: () => dopo({ s: 'ok', d: ta.value.trim(), c: testoPuro(it.modello) }, esitoOk('')) }, 'Era giusta ✓'),
+          el('button', { onclick: () => dopo({ s: 'ko', d: ta.value.trim(), c: testoPuro(it.modello) }, esitoKo(it.modello, it.spiegazione)) }, 'Era sbagliata ✗'))));
+      bott.disabled = true;
+    } }, 'Confronta con la soluzione');
+    card.append(ta, el('div', { class: 'azioni' }, bott));
+
+  } else if (it.tipo === 'libera') {
+    card.append(el('div', { class: 'testo-item', html: it.testo }));
+    const ta = el('textarea', { placeholder: 'Scrivi qui…' });
+    card.append(ta, el('div', { class: 'azioni' },
+      el('button', { class: 'primario', 'data-azione': '1', onclick: () => {
+        if (!ta.value.trim()) return;
+        dopo({ s: 'fatto', d: ta.value.trim(), c: '' },
+          el('div', { class: 'esito neutro' }, el('div', { class: 'titolo-esito' }, 'Fatto — controlla da solo'), el('div', { html: it.guida || '' })));
+      } }, 'Fatto')));
+  }
+
+  return card;
+}
+
+/* =============================== test =============================== */
+
+function vistaTest(uid) {
+  const u = DATI.unita.find(x => x.id === uid);
+  const box = el('div', {});
+  box.append(el('div', { class: 'intest' },
+    el('button', { class: 'indietro', onclick: () => { TEST = null; vai({ vista: 'unita', uid }); } }, '‹'),
+    el('h1', {}, '🏁 Test — Unit ' + u.numero)
+  ));
+
+  if (!TEST || TEST.uid !== uid) TEST = { uid, idx: 0, risposte: [] };
+
+  if (TEST.idx >= u.test.length) {
+    const giuste = TEST.risposte.filter(r => r.s === 'ok').length;
+    const perc = Math.round(100 * giuste / u.test.length);
+    const superato = perc >= DATI.sogliaTest;
+    const rec = recUnita(uid);
+    if (!rec.test || perc >= rec.test.punteggio || superato) rec.test = { punteggio: perc, superato: superato || !!rec.test?.superato };
+    rec.test.tentativi = (rec.test.tentativi || 0) + 1;
+    salvaProgressi(prog);
+    const esiti = TEST.risposte; TEST = null;
+
+    const fine = el('div', { class: 'card centrato' },
+      el('h2', {}, superato ? 'Test superato!' : 'Non ancora.'),
+      el('div', { class: 'punteggio', style: superato ? 'color:var(--ok)' : 'color:var(--ko)' }, perc + '%'),
+      el('p', { class: 'mini' }, `${giuste} risposte giuste su ${u.test.length} · soglia ${DATI.sogliaTest}%`),
+      superato
+        ? el('p', {}, u.numero < DATI.unita.length ? `La Unit ${u.numero + 1} è sbloccata. Ci si vede al prossimo giorno di studio!` : 'Percorso completato!')
+        : el('p', {}, 'Ripassa la teoria e gli esercizi dove hai sbagliato, poi riprova: puoi ripetere il test quante volte vuoi.')
+    );
+    box.append(fine);
+    const errati = esiti.filter(r => r.s !== 'ok');
+    if (errati.length) {
+      const dett = el('div', { class: 'card' }, el('h2', {}, 'Dove hai sbagliato'));
+      for (const r of errati) {
+        dett.append(el('div', { class: 'esito ko', style: 'margin-top:.5rem' },
+          el('div', { html: '<strong>Domanda ' + r.n + ':</strong> ' + r.q }),
+          el('div', {}, 'Hai risposto: ', el('em', {}, r.d || '—')),
+          el('div', {}, 'Risposta giusta: ', el('strong', { html: r.c })),
+          r.sp ? el('div', { class: 'mini', html: r.sp }) : null));
+      }
+      box.append(dett);
+    }
+    box.append(el('div', { class: 'azioni' },
+      el('button', { onclick: () => { TEST = { uid, idx: 0, risposte: [] }; render(); } }, 'Riprova il test'),
+      el('button', { class: 'primario', onclick: () => vai(superato ? { vista: 'home' } : { vista: 'unita', uid }) }, superato ? 'Torna alle unità ›' : 'Torna a ripassare ›')));
+    return box;
+  }
+
+  const it = u.test[TEST.idx];
+  box.append(
+    el('p', { class: 'sotto' }, 'Rispondi a tutte le domande: correzione e punteggio alla fine.'),
+    el('div', { class: 'mini centrato' }, `Domanda ${TEST.idx + 1} di ${u.test.length}`),
+    el('div', { class: 'barra' }, el('div', { style: `width:${Math.round(100 * TEST.idx / u.test.length)}%` })),
+    schedaItem(it, stato => {
+      TEST.risposte.push({ ...stato, n: it.n, q: it.testo ? testoPuro(it.testo) : (it.tipo === 'dettato' ? 'Dettato: ascolta e scrivi' : ''), sp: it.spiegazione || '' });
+      TEST.idx++;
+    }, () => render(), true)
+  );
+  return box;
+}
+
+/* ============================= esporta ============================= */
+
+function testoReport() {
+  const oggi = new Date();
+  const data = String(oggi.getDate()).padStart(2, '0') + '/' + String(oggi.getMonth() + 1).padStart(2, '0') + '/' + oggi.getFullYear();
+  const righe = ['REPORT — inglese A1-A2 moto — ' + data, ''];
+  let totKo = 0, totFatti = 0;
+  for (const u of DATI.unita) {
+    const r = prog[u.id];
+    if (!r) continue;
+    const errori = [];
+    u.sezioni.forEach((sez, si) => {
+      for (const it of sez.item) {
+        const st = statoItem(u.id, si, it.n);
+        if (!st) continue;
+        totFatti++;
+        if (st.s === 'ko') { totKo++; errori.push(`- ${sez.titolo}, es. ${it.n} [${it.tipo}]\n  data:     ${st.d}\n  corretta: ${st.c}`); }
+      }
+    });
+    const t = r.test;
+    if (errori.length || t) {
+      righe.push(`Unit ${u.numero} — ${u.titolo}` + (t ? ` · test: ${t.punteggio}% ${t.superato ? '(superato)' : '(non superato)'} in ${t.tentativi} tentativo/i` : ''));
+      righe.push(...errori, '');
+    }
+  }
+  righe.push(`Totale: ${totKo} errori su ${totFatti} esercizi svolti.`);
+  return righe.join('\n');
+}
+
+function vistaEsporta() {
+  const box = el('div', {});
+  const testo = testoReport();
+  const ta = el('textarea', { id: 'esporta-area' });
+  ta.value = testo;
+  box.append(
+    el('div', { class: 'intest' },
+      el('button', { class: 'indietro', onclick: () => vai({ vista: 'home' }) }, '‹'),
+      el('h1', {}, 'Esporta gli errori')),
+    el('p', { class: 'sotto' }, 'Copia questo testo e mandalo a chi ti segue nel percorso.'),
+    el('div', { class: 'card' }, ta),
+    el('div', { class: 'azioni' },
+      el('button', { class: 'primario', onclick: async ev => {
+        try { await navigator.clipboard.writeText(testo); ev.target.textContent = 'Copiato ✓'; }
+        catch (e) { ta.select(); document.execCommand('copy'); ev.target.textContent = 'Copiato ✓'; }
+      } }, 'Copia negli appunti'),
+      navigator.share ? el('button', { onclick: () => navigator.share({ text: testo }).catch(() => {}) }, 'Condividi…') : null)
+  );
+  return box;
+}
+
+/* ============================== avvio ============================== */
+
+async function avvia() {
+  try {
+    const r = await fetch('esercizi.json', { cache: 'no-cache' });
+    if (r.ok) DATI = await r.json();
+  } catch (e) { /* file:// o offline: fallback */ }
+  if (!DATI && window.ESERCIZI) DATI = window.ESERCIZI;
+  if (!DATI) {
+    document.getElementById('app').innerHTML =
+      '<div class="card"><strong>Esercizi non trovati.</strong><p>Manca <code>esercizi.json</code>: esegui <code>php dati/genera.php</code> e ricarica.</p></div>';
+    return;
+  }
+  render();
+}
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+avvia();
+</script>
+</body>
+</html>

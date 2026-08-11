@@ -1,0 +1,566 @@
+{
+    "versione": 1,
+    "corso": "Inglese A1 → A2 — percorso moto",
+    "sogliaTest": 70,
+    "unita": [
+        {
+            "numero": 1,
+            "titolo": "Ciao, io sono… — il verbo be",
+            "giorni": "Giorno 1",
+            "descrizione": "Presentarsi e salutare, i pronomi e il verbo be, i numeri 0–20, le prime parole del box.",
+            "teoria": [
+                {
+                    "titolo": "I pronomi e il verbo be (essere)",
+                    "html": "<p>Il verbo <strong>be</strong> (essere) è il primo mattone dell'inglese: serve per dire chi sei, com'è una cosa, di dove sei. Al presente ha solo tre forme: <strong>am, is, are</strong>.</p>\n<table><tr><th>Pronome</th><th>be</th><th>Forma contratta</th><th>Esempio</th></tr>\n<tr><td>I (io)</td><td>am</td><td>I'm</td><td><em>I am a mechanic.</em> — Sono un meccanico.</td></tr>\n<tr><td>you (tu/voi)</td><td>are</td><td>you're</td><td><em>You are my friend.</em> — Sei mio amico.</td></tr>\n<tr><td>he / she / it (lui/lei/esso)</td><td>is</td><td>he's, she's, it's</td><td><em>Marc is a rider.</em> — Marc è un pilota.</td></tr>\n<tr><td>we (noi)</td><td>are</td><td>we're</td><td><em>We are a team.</em> — Siamo una squadra.</td></tr>\n<tr><td>they (loro)</td><td>are</td><td>they're</td><td><em>They are mechanics.</em> — Sono meccanici.</td></tr></table>\n<p>Due cose importanti: in inglese il pronome <strong>non si può omettere</strong> (in italiano dici \"sono italiano\", in inglese devi dire <em>I am Italian</em>, mai solo <em>am Italian</em>); e <strong>it</strong> si usa per le cose: <em>The bike? It is fast.</em> — La moto? È veloce.</p>"
+                },
+                {
+                    "titolo": "Salutare e presentarsi",
+                    "html": "<p>I saluti seguono il momento della giornata: <strong>Good morning</strong> (buongiorno, fino a mezzogiorno), <strong>Good afternoon</strong> (buon pomeriggio), <strong>Good evening</strong> (buonasera, quando arrivi). <strong>Good night</strong> si usa solo per congedarsi alla sera, come \"buonanotte\". <strong>Hello</strong> e <strong>Hi</strong> vanno bene sempre, <em>Hi</em> è più informale.</p>\n<p>Le frasi della presentazione, da imparare come blocchi pronti:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>What's your name?</td><td>Come ti chiami?</td></tr>\n<tr><td>My name is Alex. / I'm Alex.</td><td>Mi chiamo Alex. / Sono Alex.</td></tr>\n<tr><td>Nice to meet you!</td><td>Piacere di conoscerti!</td></tr>\n<tr><td>How are you?</td><td>Come stai?</td></tr>\n<tr><td>I'm fine, thanks. And you?</td><td>Sto bene, grazie. E tu?</td></tr>\n<tr><td>See you tomorrow! / Goodbye!</td><td>A domani! / Arrivederci!</td></tr></table>"
+                },
+                {
+                    "titolo": "L'alfabeto e i numeri 0–20",
+                    "html": "<p>Saper <strong>fare lo spelling</strong> (dire una parola lettera per lettera) è indispensabile al telefono e nei moduli: la domanda è <em>How do you spell…?</em> (come si scrive…?). Le lettere difficili per un italiano: <strong>A</strong> si legge \"ei\", <strong>E</strong> si legge \"i\", <strong>I</strong> si legge \"ai\", <strong>G</strong> \"gi\", <strong>J</strong> \"gei\", <strong>H</strong> \"eic\", <strong>Y</strong> \"uai\", <strong>K</strong> \"chei\".</p>\n<p>I numeri 0–20: <em>zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty</em>.</p>\n<p>Attenzione alla differenza fra <strong>-teen</strong> e <strong>-ty</strong>: <em>thirteen</em> = 13, <em>thirty</em> = 30. Nel parlato la differenza si sente sull'accento: thir<strong>TEEN</strong> contro <strong>THIR</strong>ty.</p>"
+                },
+                {
+                    "titolo": "Le prime parole del box",
+                    "html": "<p>Il lessico della moto entra da subito e cresce a ogni unità. Le prime otto parole:</p>\n<table><tr><th>Inglese</th><th>Italiano</th><th>Esempio</th></tr>\n<tr><td>bike</td><td>moto</td><td><em>The bike is red.</em></td></tr>\n<tr><td>rider</td><td>pilota</td><td><em>Marc is a rider.</em></td></tr>\n<tr><td>team</td><td>squadra</td><td><em>We are a team.</em></td></tr>\n<tr><td>race</td><td>gara</td><td><em>The race is on Sunday.</em></td></tr>\n<tr><td>helmet</td><td>casco</td><td><em>The helmet is new.</em></td></tr>\n<tr><td>mechanic</td><td>meccanico</td><td><em>I am a mechanic.</em></td></tr>\n<tr><td>garage</td><td>box / officina</td><td><em>The bike is in the garage.</em></td></tr>\n<tr><td>tyre</td><td>gomma / pneumatico</td><td><em>The tyre is soft.</em></td></tr></table>\n<p>Nota: <em>rider</em> è il pilota di moto; quello di auto è <em>driver</em>. E il \"box\" dei circuiti in inglese si chiama <em>garage</em> o <em>pit box</em>.</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Saluti e presentazioni",
+                    "intro": "Scegli o completa il saluto giusto.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "Arrivi al lavoro alle 8 di mattina. Come saluti?",
+                            "opzioni": [
+                                "Good morning!",
+                                "Good night!",
+                                "Good evening!"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Good night non è un saluto di arrivo: si usa solo per congedarsi alla sera.",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"What's your name?\" — Qual è la risposta giusta?",
+                            "opzioni": [
+                                "I'm fine, thanks.",
+                                "My name is Alex.",
+                                "Yes, please."
+                            ],
+                            "corretta": 1,
+                            "spiegazione": "\"I'm fine\" risponde a \"How are you?\", non a \"What's your name?\".",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Completa: \"Nice to ______ you!\"",
+                            "accettate": [
+                                "meet"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"How are you?\" — Qual è la risposta giusta?",
+                            "opzioni": [
+                                "I'm fine, thanks. And you?",
+                                "My name is Leo.",
+                                "Goodbye!"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Completa il saluto del mattino: \"______ morning! How are you?\"",
+                            "accettate": [
+                                "good"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Fine giornata: un collega va via e lo rivedrai domani. Cosa gli dici?",
+                            "opzioni": [
+                                "Good morning!",
+                                "See you tomorrow!",
+                                "Nice to meet you!"
+                            ],
+                            "corretta": 1,
+                            "spiegazione": "\"Nice to meet you\" si dice solo la prima volta che conosci qualcuno.",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Completa: \"Hello, I ______ Alex.\"",
+                            "accettate": [
+                                "am",
+                                "'m"
+                            ],
+                            "spiegazione": "Vanno bene sia \"am\" sia la forma contratta \"'m\".",
+                            "n": 7
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Numeri e alfabeto",
+                    "intro": "Scrivi i numeri in lettere, in inglese.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "Scrivi in lettere: 7",
+                            "accettate": [
+                                "seven"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Scrivi in lettere: 12",
+                            "accettate": [
+                                "twelve"
+                            ],
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Scrivi in lettere: 15",
+                            "accettate": [
+                                "fifteen"
+                            ],
+                            "spiegazione": "Attenzione: fif-, non five-.",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Scrivi in lettere: 20",
+                            "accettate": [
+                                "twenty"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"How do you spell 'bike'?\" — Qual è lo spelling giusto?",
+                            "opzioni": [
+                                "B-I-K-E",
+                                "B-Y-K-E",
+                                "B-I-C-K"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Thirteen\" è il numero…",
+                            "opzioni": [
+                                "13",
+                                "30",
+                                "3"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "-teen = da 13 a 19; -ty = le decine (thirty = 30).",
+                            "n": 13
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: il verbo be",
+                    "intro": "Completa con am, is o are (vanno bene anche le forme contratte).",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ Italian.",
+                            "accettate": [
+                                "am",
+                                "'m"
+                            ],
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Marc ______ a rider.",
+                            "accettate": [
+                                "is",
+                                "'s"
+                            ],
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ a team.",
+                            "accettate": [
+                                "are",
+                                "'re"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The bike ______ red.",
+                            "accettate": [
+                                "is",
+                                "'s"
+                            ],
+                            "spiegazione": "Le cose sono \"it\": terza persona singolare, quindi is.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "You ______ my friend.",
+                            "accettate": [
+                                "are",
+                                "'re"
+                            ],
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "They ______ mechanics.",
+                            "opzioni": [
+                                "is",
+                                "are",
+                                "am"
+                            ],
+                            "corretta": 1,
+                            "spiegazione": "They (loro) vuole sempre are.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "It ______ a fast bike.",
+                            "opzioni": [
+                                "is",
+                                "are",
+                                "am"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 20
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "La frase \"I is a mechanic\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Con I si usa sempre am: \"I am a mechanic\".",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He's\" è la forma contratta di \"He is\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 22
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Il lessico della moto: scegli o completa.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Rider\" significa:",
+                            "opzioni": [
+                                "pilota",
+                                "meccanico",
+                                "casco"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Il pilota di moto è rider; quello di auto è driver.",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Helmet\" significa:",
+                            "opzioni": [
+                                "guanto",
+                                "casco",
+                                "ruota"
+                            ],
+                            "corretta": 1,
+                            "spiegazione": "",
+                            "n": 24
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The ______ repairs the bike. (il meccanico)",
+                            "accettate": [
+                                "mechanic"
+                            ],
+                            "spiegazione": "",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The ______ is on Sunday. (la gara)",
+                            "accettate": [
+                                "race"
+                            ],
+                            "spiegazione": "",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Team\" significa:",
+                            "opzioni": [
+                                "squadra",
+                                "tempo",
+                                "gomma"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Marc is a MotoGP ______. (pilota)",
+                            "accettate": [
+                                "rider"
+                            ],
+                            "spiegazione": "",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Premi il pulsante audio, ascolta quante volte vuoi e scrivi o scegli quello che senti.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "My name is Alex.",
+                            "accettate": [
+                                "my name is alex"
+                            ],
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "We are a team.",
+                            "accettate": [
+                                "we are a team"
+                            ],
+                            "spiegazione": "",
+                            "n": 30
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "Seventeen.",
+                            "accettate": [
+                                "seventeen",
+                                "17"
+                            ],
+                            "spiegazione": "seven-TEEN, accento sulla seconda parte: è 17, non 70.",
+                            "n": 31
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "The bike is red.",
+                            "testo": "Che cosa hai sentito?",
+                            "opzioni": [
+                                "The bike is red.",
+                                "The bike is fast.",
+                                "The rider is ready."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 32
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Good afternoon! How are you?",
+                            "testo": "In che momento della giornata siamo?",
+                            "opzioni": [
+                                "Pomeriggio",
+                                "Mattina presto",
+                                "Notte"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Good afternoon = buon pomeriggio.",
+                            "n": 33
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello, poi ripeti la frase ad alta voce. Se il microfono è disponibile, l'app ti dice come è andata; altrimenti confrontati con il modello e valutati da solo.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "Hello! My name is Alex.",
+                            "aiuto": "Ciao! Mi chiamo Alex.",
+                            "n": 34
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I am a mechanic.",
+                            "aiuto": "Sono un meccanico.",
+                            "n": 35
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Nice to meet you!",
+                            "aiuto": "Piacere di conoscerti!",
+                            "n": 36
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "We are a MotoGP team.",
+                            "aiuto": "Siamo una squadra di MotoGP.",
+                            "n": 37
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "The bike is ready.",
+                            "aiuto": "La moto è pronta.",
+                            "n": 38
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi per fissare quello che hai imparato.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Buongiorno! Io sono un meccanico.\"",
+                            "modello": "Good morning! I am a mechanic.",
+                            "spiegazione": "Ricorda: il pronome I non si può omettere, e si scrive sempre maiuscolo.",
+                            "n": 39
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Presentati in inglese con tre frasi: il tuo nome (va bene uno di fantasia), il tuo lavoro, la tua città o la tua squadra del cuore.",
+                            "guida": "Controlla tre cose: ogni frase ha il pronome (I…)? Il verbo be è quello giusto (am/is/are)? Maiuscola a inizio frase e punto alla fine?",
+                            "n": 40
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "mc",
+                    "testo": "Sono le 9 di sera e vai a casa. Cosa dici ai colleghi?",
+                    "opzioni": [
+                        "Good night!",
+                        "Good morning!",
+                        "Nice to meet you!"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "Good night è il congedo della sera.",
+                    "n": 1
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "I ______ a mechanic.",
+                    "accettate": [
+                        "am",
+                        "'m"
+                    ],
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "They ______ riders.",
+                    "accettate": [
+                        "are",
+                        "'re"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Helmet\" significa:",
+                    "opzioni": [
+                        "casco",
+                        "sella",
+                        "guanto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Scrivi in lettere: 15",
+                    "accettate": [
+                        "fifteen"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "How ______ you?",
+                    "opzioni": [
+                        "are",
+                        "is",
+                        "am"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "vf",
+                    "testo": "La frase \"We is a team\" è corretta.",
+                    "risposta": "F",
+                    "spiegazione": "We vuole are: \"We are a team\".",
+                    "n": 7
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The race is on Sunday.",
+                    "accettate": [
+                        "the race is on sunday"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Race\" significa:",
+                    "opzioni": [
+                        "gara",
+                        "moto",
+                        "squadra"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Marc ______ a rider.",
+                    "accettate": [
+                        "is",
+                        "'s"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 40,
+            "id": "unit-01"
+        }
+    ]
+}
