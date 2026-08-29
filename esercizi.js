@@ -561,6 +561,6747 @@ window.ESERCIZI = {
             ],
             "totaleItem": 40,
             "id": "unit-01"
+        },
+        {
+            "numero": 2,
+            "titolo": "Di dove sei? — be al negativo e nelle domande",
+            "giorni": "Giorni 2–3",
+            "descrizione": "Dire di no e fare domande con be, gli aggettivi possessivi, paesi e nazionalità del paddock.",
+            "teoria": [
+                {
+                    "titolo": "Be: negativo e domande",
+                    "html": "<p>Per dire di no si aggiunge <strong>not</strong> dopo il verbo; per chiedere, il verbo <strong>passa davanti</strong> al soggetto. Niente ausiliari: be fa tutto da solo.</p>\n<table><tr><th>Negativo</th><th>Domanda</th><th>Risposte brevi</th></tr>\n<tr><td>I am not (I'm not)</td><td>Am I…?</td><td>Yes, I am. / No, I'm not.</td></tr>\n<tr><td>he/she/it is not (isn't)</td><td>Is he…?</td><td>Yes, he is. / No, he isn't.</td></tr>\n<tr><td>you/we/they are not (aren't)</td><td>Are you…?</td><td>Yes, we are. / No, we aren't.</td></tr></table>\n<p>Esempi: <em>He isn't Italian.</em> — Non è italiano. <em>Are you a mechanic?</em> — Sei un meccanico? Attenzione alla risposta breve positiva: si dice <em>Yes, he is</em>, mai <s>Yes, he's</s> — la contrazione nella risposta breve positiva non si usa.</p>"
+                },
+                {
+                    "titolo": "Gli aggettivi possessivi",
+                    "html": "<p>Mio, tuo, suo… in inglese si scelgono in base a <strong>chi possiede</strong>, e non cambiano mai al plurale:</p>\n<table><tr><th>Pronome</th><th>Possessivo</th><th>Esempio</th></tr>\n<tr><td>I</td><td>my</td><td><em>my helmet</em> — il mio casco</td></tr>\n<tr><td>you</td><td>your</td><td><em>your bike</em> — la tua moto</td></tr>\n<tr><td>he</td><td>his</td><td><em>his team</em> — la sua squadra (di lui)</td></tr>\n<tr><td>she</td><td>her</td><td><em>her bike</em> — la sua moto (di lei)</td></tr>\n<tr><td>it</td><td>its</td><td><em>its engine</em> — il suo motore (della moto)</td></tr>\n<tr><td>we</td><td>our</td><td><em>our garage</em> — il nostro box</td></tr>\n<tr><td>they</td><td>their</td><td><em>their bikes</em> — le loro moto</td></tr></table>\n<p>L'errore classico italiano è scegliere his/her in base alla cosa posseduta: no, conta il proprietario. <em>Anna and <strong>her</strong> helmet</em> (di lei), <em>Marc and <strong>his</strong> helmet</em> (di lui).</p>"
+                },
+                {
+                    "titolo": "Paesi e nazionalità",
+                    "html": "<p>La domanda è <strong>Where are you from?</strong> (di dove sei?) e la risposta <strong>I'm from Italy</strong> oppure <strong>I'm Italian</strong>. Le nazionalità si scrivono sempre con la <strong>maiuscola</strong>.</p>\n<table><tr><th>Paese</th><th>Nazionalità</th></tr>\n<tr><td>Italy</td><td>Italian</td></tr>\n<tr><td>Spain</td><td>Spanish</td></tr>\n<tr><td>France</td><td>French</td></tr>\n<tr><td>Germany</td><td>German</td></tr>\n<tr><td>Japan</td><td>Japanese</td></tr>\n<tr><td>the UK</td><td>British</td></tr>\n<tr><td>the USA</td><td>American</td></tr></table>\n<p>Nel motomondiale è lessico quotidiano: <em>He's Spanish. His team is Italian. The bikes are Japanese.</em></p>"
+                },
+                {
+                    "titolo": "Nel paddock",
+                    "html": "<p>Le parole nuove del box:</p>\n<table><tr><th>Inglese</th><th>Italiano</th><th>Esempio</th></tr>\n<tr><td>paddock</td><td>l'area dei team dietro ai box</td><td><em>Our truck is in the paddock.</em></td></tr>\n<tr><td>championship</td><td>campionato</td><td><em>The championship starts in March.</em></td></tr>\n<tr><td>sponsor</td><td>sponsor (chi finanzia il team)</td><td><em>Our sponsor is Italian.</em></td></tr>\n<tr><td>flag</td><td>bandiera</td><td><em>The chequered flag</em> — la bandiera a scacchi</td></tr>\n<tr><td>fan</td><td>tifoso</td><td><em>The Italian fans are fantastic.</em></td></tr></table>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Paesi e nazionalità",
+                    "intro": "Da dove vengono? Scegli o completa.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "Un ragazzo di Madrid è…",
+                            "opzioni": [
+                                "Spanish",
+                                "Spain",
+                                "French"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Spain è il paese, Spanish la nazionalità.",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He is from Japan: he is ______.",
+                            "accettate": [
+                                "japanese"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Where are you from?\" — Qual è la risposta giusta?",
+                            "opzioni": [
+                                "I'm from Italy.",
+                                "I'm fine, thanks.",
+                                "I'm a mechanic."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "People from Germany are ______.",
+                            "accettate": [
+                                "german"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Le nazionalità in inglese si scrivono…",
+                            "opzioni": [
+                                "sempre con la maiuscola",
+                                "sempre con la minuscola",
+                                "come si preferisce"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Italian, Spanish, Japanese: maiuscola obbligatoria.",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I'm from the UK: I'm ______.",
+                            "accettate": [
+                                "british"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Il paddock internazionale.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Paddock\" è…",
+                            "opzioni": [
+                                "l'area dei team dietro ai box",
+                                "la gomma da bagnato",
+                                "il casco di riserva"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The world ______ has more than twenty races. (campionato)",
+                            "accettate": [
+                                "championship"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Sponsor\" è…",
+                            "opzioni": [
+                                "l'azienda che finanzia il team",
+                                "il pilota di riserva",
+                                "il capo meccanico"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Flag\" significa…",
+                            "opzioni": [
+                                "bandiera",
+                                "sedile",
+                                "motore"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "La bandiera a scacchi di fine gara è la chequered flag.",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The Italian ______ love MotoGP. (i tifosi)",
+                            "accettate": [
+                                "fans"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: negativo, domande, possessivi",
+                    "intro": "Completa o scegli. Per i possessivi, ricorda: conta chi possiede.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ not Spanish, I'm Italian.",
+                            "accettate": [
+                                "am",
+                                "'m"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ a rider: he is a mechanic. (negativo)",
+                            "accettate": [
+                                "isn't",
+                                "is not"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ you Italian?",
+                            "accettate": [
+                                "are"
+                            ],
+                            "spiegazione": "Nella domanda il verbo passa davanti: Are you…?",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Is Marc a rider?\" — La risposta breve corretta è…",
+                            "opzioni": [
+                                "Yes, he is.",
+                                "Yes, he's.",
+                                "Yes, is."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Nella risposta breve positiva la contrazione non si usa mai.",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Are you from Rome?\" — \"No, ______.\"",
+                            "opzioni": [
+                                "I'm not",
+                                "I amn't",
+                                "I not"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "\"Amn't\" non esiste: la forma è I'm not.",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "This is Maria and this is ______ helmet. (il casco di lei)",
+                            "accettate": [
+                                "her"
+                            ],
+                            "spiegazione": "Conta il proprietario: Maria è una donna, quindi her.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The bike is new: ______ engine is fantastic. (il suo, della moto)",
+                            "accettate": [
+                                "its"
+                            ],
+                            "spiegazione": "Le cose usano its (senza apostrofo).",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Marco and Anna love ______ jobs.",
+                            "opzioni": [
+                                "their",
+                                "his",
+                                "her"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Il possessore è \"loro\": their.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He isn't Spanish\" significa \"Lui è spagnolo\".",
+                            "risposta": "F",
+                            "spiegazione": "Isn't = is not: significa che NON è spagnolo.",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "Where are you from?",
+                            "accettate": [
+                                "where are you from"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "He isn't Italian, he's Spanish.",
+                            "accettate": [
+                                "he isn't italian, he's spanish",
+                                "he is not italian he is spanish"
+                            ],
+                            "spiegazione": "Vanno bene sia le forme contratte sia quelle estese.",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Number ninety-three is from Spain.",
+                            "testo": "Da dove viene il pilota numero 93?",
+                            "opzioni": [
+                                "Spagna",
+                                "Italia",
+                                "Giappone"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Is she your engineer? Yes, she is.",
+                            "testo": "La risposta alla domanda è…",
+                            "opzioni": [
+                                "sì",
+                                "no",
+                                "non si capisce"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "I'm not English. I'm Italian.",
+                            "aiuto": "Non sono inglese. Sono italiano.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Where are you from?",
+                            "aiuto": "Di dove sei?",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Are you a mechanic? Yes, I am.",
+                            "aiuto": "Sei un meccanico? Sì.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "My team is in the paddock.",
+                            "aiuto": "La mia squadra è nel paddock.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Lui non è un pilota. È il mio meccanico.\"",
+                            "modello": "He isn't a rider. He is my mechanic.",
+                            "spiegazione": "Vanno bene anche He's not / He is not.",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi tre frasi su un pilota che ti piace: da dove viene, la nazionalità, la squadra. Usa \"his\".",
+                            "guida": "Controlla: nazionalità con la maiuscola? his (non her) se è un uomo? Verbo be giusto in ogni frase?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "______ she from France?",
+                    "accettate": [
+                        "is"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Are you Italian?\" — \"Yes, ______.\"",
+                    "opzioni": [
+                        "I am",
+                        "I'm",
+                        "am"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "Risposta breve positiva senza contrazione.",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "This is Anna and that is ______ bike. (di lei)",
+                    "accettate": [
+                        "her"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "A rider from Japan is…",
+                    "opzioni": [
+                        "Japanese",
+                        "Japan",
+                        "Japanish"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "We ______ not in the paddock. (be)",
+                    "accettate": [
+                        "are",
+                        "'re"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Championship\" significa…",
+                    "opzioni": [
+                        "campionato",
+                        "circuito",
+                        "casco"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "His helmet is new.",
+                    "accettate": [
+                        "his helmet is new"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 1: I ______ a mechanic.",
+                    "accettate": [
+                        "am",
+                        "'m"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 1: \"team\" significa…",
+                    "opzioni": [
+                        "squadra",
+                        "gara",
+                        "moto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 1: scrivi in lettere 12.",
+                    "accettate": [
+                        "twelve"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-02"
+        },
+        {
+            "numero": 3,
+            "titolo": "La gara è domenica alle due — articoli, plurali, orari",
+            "giorni": "Giorni 4–5",
+            "descrizione": "A/an/the, i plurali, this/that, i giorni e i mesi, dire l'ora, il calendario del weekend di gara.",
+            "teoria": [
+                {
+                    "titolo": "Gli articoli: a, an, the",
+                    "html": "<p><strong>A</strong> = un/uno/una, per una cosa non specifica: <em>a bike, a mechanic</em>. Davanti a suono vocale diventa <strong>an</strong>: <em>an engineer, an idea</em>. <strong>The</strong> = il/la/i/le, per una cosa precisa: <em>the bike of the champion</em> — quella lì, non una qualsiasi.</p>\n<p>Confronta: <em>I am <strong>a</strong> mechanic</em> (uno dei tanti) / <em><strong>The</strong> mechanic of our team is here</em> (quello specifico).</p>"
+                },
+                {
+                    "titolo": "I plurali e this/that",
+                    "html": "<p>Il plurale normale aggiunge <strong>-s</strong> (<em>bike → bikes</em>); dopo -s, -x, -ch, -sh si aggiunge <strong>-es</strong> (<em>box → boxes, watch → watches</em>). Alcuni sono irregolari e vanno imparati: <em>man → men, woman → women, child → children, person → people</em>.</p>\n<table><tr><th></th><th>Vicino</th><th>Lontano</th></tr>\n<tr><td>Singolare</td><td>this (questo) — <em>this bike</em></td><td>that (quello) — <em>that truck</em></td></tr>\n<tr><td>Plurale</td><td>these (questi) — <em>these tyres</em></td><td>those (quelli) — <em>those fans</em></td></tr></table>"
+                },
+                {
+                    "titolo": "Giorni, mesi e l'ora",
+                    "html": "<p>Giorni: <em>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</em>. Mesi: <em>January, February, March, April, May, June, July, August, September, October, November, December</em>. In inglese vogliono sempre la <strong>maiuscola</strong>.</p>\n<p>Le preposizioni: <strong>on</strong> + giorno (<em>on Sunday</em>), <strong>in</strong> + mese (<em>in March</em>), <strong>at</strong> + ora (<em>at two o'clock</em>).</p>\n<p>L'ora: <em>What time is it?</em> — Che ore sono? <em>It's three <strong>o'clock</strong></em> (le tre in punto), <em>it's <strong>half past</strong> three</em> (le tre e mezza).</p>"
+                },
+                {
+                    "titolo": "Il weekend di gara",
+                    "html": "<p>Il programma di un Gran Premio, con le parole che si usano davvero:</p>\n<table><tr><th>Inglese</th><th>Italiano</th><th>Quando</th></tr>\n<tr><td>practice</td><td>prove (libere)</td><td><em>Practice is on Friday.</em></td></tr>\n<tr><td>qualifying</td><td>qualifiche</td><td><em>Qualifying is on Saturday.</em></td></tr>\n<tr><td>race day</td><td>il giorno della gara</td><td><em>Race day is Sunday!</em></td></tr>\n<tr><td>season</td><td>stagione</td><td><em>The season starts in March.</em></td></tr>\n<tr><td>round</td><td>tappa del campionato</td><td><em>Round 5 is in France.</em></td></tr></table>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Giorni, mesi e orari",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "Il giorno dopo Monday è ______.",
+                            "accettate": [
+                                "tuesday"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "I giorni e i mesi in inglese si scrivono…",
+                            "opzioni": [
+                                "con la maiuscola",
+                                "con la minuscola",
+                                "è indifferente"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "\"What time is it?\" — \"It's three ______.\" (in punto)",
+                            "accettate": [
+                                "o'clock",
+                                "oclock"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Half past six\" è…",
+                            "opzioni": [
+                                "le 6:30",
+                                "le 5:30",
+                                "le 6:15"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Half past = e mezza.",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Il mese dopo April è ______.",
+                            "accettate": [
+                                "may"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"See you ______ Monday!\"",
+                            "opzioni": [
+                                "on",
+                                "in",
+                                "at"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "On + giorni, in + mesi, at + ore.",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Il programma del weekend di gara.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Qualifying\" sono…",
+                            "opzioni": [
+                                "le qualifiche",
+                                "le prove libere",
+                                "la premiazione"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The ______ is on Sunday at two o'clock. (la gara)",
+                            "accettate": [
+                                "race"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Practice\" sono…",
+                            "opzioni": [
+                                "le prove",
+                                "le pause",
+                                "le premiazioni"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The MotoGP ______ starts in March. (la stagione)",
+                            "accettate": [
+                                "season"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Round 5\" significa…",
+                            "opzioni": [
+                                "la quinta tappa del campionato",
+                                "cinque giri di pista",
+                                "il quinto posto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: articoli, plurali, this/that",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "______ engineer (un ingegnere)",
+                            "opzioni": [
+                                "an",
+                                "a",
+                                "the"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Davanti a suono vocale: an.",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "One man, two ______.",
+                            "accettate": [
+                                "men"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "One child, three ______.",
+                            "accettate": [
+                                "children"
+                            ],
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "______ bikes here are new. (queste)",
+                            "opzioni": [
+                                "These",
+                                "This",
+                                "That"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Plurale vicino: these.",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Il plurale di \"box\" è…",
+                            "opzioni": [
+                                "boxes",
+                                "boxs",
+                                "boxies"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Dopo -x si aggiunge -es.",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Look at ______ bike over there! (quella, lontana)",
+                            "accettate": [
+                                "that"
+                            ],
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"A apple\" è corretto.",
+                            "risposta": "F",
+                            "spiegazione": "Davanti a vocale serve an: an apple.",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "Il plurale di \"person\" è \"people\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"I work ______ Saturday.\"",
+                            "opzioni": [
+                                "on",
+                                "in",
+                                "at"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "The race is on Sunday at two o'clock.",
+                            "accettate": [
+                                "the race is on sunday at two o'clock",
+                                "the race is on sunday at 2 oclock"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "Wednesday.",
+                            "accettate": [
+                                "wednesday"
+                            ],
+                            "spiegazione": "Si scrive Wednesday ma si pronuncia \"uènsdei\": la d centrale è muta.",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Qualifying is on Saturday at ten.",
+                            "testo": "Quando sono le qualifiche?",
+                            "opzioni": [
+                                "Sabato alle 10",
+                                "Domenica alle 10",
+                                "Sabato alle 2"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "It's half past nine.",
+                            "testo": "Che ore sono?",
+                            "opzioni": [
+                                "9:30",
+                                "9:00",
+                                "8:30"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "The race is on Sunday.",
+                            "aiuto": "La gara è domenica.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "What time is it?",
+                            "aiuto": "Che ore sono?",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "These tyres are new.",
+                            "aiuto": "Queste gomme sono nuove.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Practice starts at nine o'clock.",
+                            "aiuto": "Le prove iniziano alle nove.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Le qualifiche sono sabato alle dieci.\"",
+                            "modello": "Qualifying is on Saturday at ten (o'clock).",
+                            "spiegazione": "On + giorno, at + ora, maiuscola a Saturday.",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi il programma del tuo weekend ideale al circuito: tre frasi con giorni e orari.",
+                            "guida": "Controlla: on + giorno? at + ora? Maiuscole ai giorni della settimana?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "One woman, two ______.",
+                    "accettate": [
+                        "women"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"An\" si usa davanti a…",
+                    "opzioni": [
+                        "un suono vocale",
+                        "una consonante",
+                        "qualsiasi parola"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Il giorno prima di Friday è ______.",
+                    "accettate": [
+                        "thursday"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"At half past two\" è…",
+                    "opzioni": [
+                        "le 2:30",
+                        "le 2:15",
+                        "le 3:30"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Season\" significa…",
+                    "opzioni": [
+                        "stagione",
+                        "sedile",
+                        "squadra"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "______ helmets here are new. (questi)",
+                    "accettate": [
+                        "these"
+                    ],
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The test is on Monday morning.",
+                    "accettate": [
+                        "the test is on monday morning"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 2: ______ you from Spain?",
+                    "accettate": [
+                        "are"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 2: someone from France is…",
+                    "opzioni": [
+                        "French",
+                        "France",
+                        "Franch"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 2: this is Marc and this is ______ bike. (di lui)",
+                    "accettate": [
+                        "his"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-03"
+        },
+        {
+            "numero": 4,
+            "titolo": "Ho, hai, ha — have got e le persone intorno a te",
+            "giorni": "Giorni 6–7",
+            "descrizione": "Have got per dire cosa possiedi, la famiglia, descrivere le persone, i ruoli dentro una scuderia.",
+            "teoria": [
+                {
+                    "titolo": "Have got (avere)",
+                    "html": "<p><strong>Have got</strong> dice che cosa possiedi o hai: <em>I have got a motorbike</em> — ho una moto. Con he/she/it diventa <strong>has got</strong>.</p>\n<table><tr><th></th><th>Affermativa</th><th>Negativa</th><th>Domanda</th></tr>\n<tr><td>I / you / we / they</td><td>have got ('ve got)</td><td>haven't got</td><td>Have you got…?</td></tr>\n<tr><td>he / she / it</td><td>has got ('s got)</td><td>hasn't got</td><td>Has he got…?</td></tr></table>\n<p>Risposte brevi: <em>Yes, I have. / No, he hasn't.</em> Esempi: <em>She's got a new helmet. Has the bike got a problem? No, it hasn't.</em></p>"
+                },
+                {
+                    "titolo": "La famiglia e il possesso con 's",
+                    "html": "<p>Le parole della famiglia: <em>father</em> (padre), <em>mother</em> (madre), <em>parents</em> (genitori), <em>brother, sister, son</em> (figlio), <em>daughter</em> (figlia), <em>children</em> (figli), <em>wife</em> (moglie), <em>husband</em> (marito).</p>\n<p>Per dire \"di qualcuno\" si aggiunge <strong>'s</strong> al nome della persona: <em>Marco's sister</em> — la sorella di Marco; <em>my brother's bike</em> — la moto di mio fratello. L'ordine è rovesciato rispetto all'italiano: prima il proprietario, poi la cosa.</p>"
+                },
+                {
+                    "titolo": "Descrivere le persone",
+                    "html": "<p>Aggettivi di base: <em>tall</em> (alto), <em>short</em> (basso/corto), <em>young</em> (giovane), <em>old</em> (vecchio), <em>kind</em> (gentile), <em>funny</em> (divertente). L'aggettivo va <strong>prima</strong> del nome: <em>a tall mechanic</em>, non <s>a mechanic tall</s>.</p>\n<p>Per capelli e occhi si usa have got: <em>He's got short hair and brown eyes.</em> — Ha i capelli corti e gli occhi marroni. Nota: <em>hair</em> è singolare in inglese.</p>"
+                },
+                {
+                    "titolo": "I ruoli in scuderia",
+                    "html": "<p>Chi lavora dentro un team di MotoGP:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>team manager</td><td>il responsabile della squadra</td></tr>\n<tr><td>chief mechanic</td><td>il capo meccanico</td></tr>\n<tr><td>mechanic</td><td>meccanico</td></tr>\n<tr><td>engineer</td><td>ingegnere (dati, telemetria, motore)</td></tr>\n<tr><td>crew</td><td>la squadra che lavora al box</td></tr></table>\n<p><em>Our crew has got five mechanics and two engineers.</em> — Il nostro box ha cinque meccanici e due ingegneri.</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "La famiglia e le persone",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Daughter\" significa…",
+                            "opzioni": [
+                                "figlia",
+                                "figlio",
+                                "sorella"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "My mother and my father are my ______.",
+                            "accettate": [
+                                "parents"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Marco's sister\" significa…",
+                            "opzioni": [
+                                "la sorella di Marco",
+                                "Marco e la sorella",
+                                "le sorelle di nome Marco"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Prima il proprietario con 's, poi la cosa.",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I have got one brother and one ______. (sorella)",
+                            "accettate": [
+                                "sister"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "He is seventy years old: he is ______.",
+                            "opzioni": [
+                                "old",
+                                "young",
+                                "tall"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She has got long ______ and green eyes. (capelli)",
+                            "accettate": [
+                                "hair"
+                            ],
+                            "spiegazione": "Hair è singolare: mai \"hairs\" in questo senso.",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Chi fa cosa in una scuderia.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Chief mechanic\" è…",
+                            "opzioni": [
+                                "il capo meccanico",
+                                "il pilota principale",
+                                "il direttore di gara"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The team ______ organises the whole team. (responsabile)",
+                            "accettate": [
+                                "manager"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Crew\" è…",
+                            "opzioni": [
+                                "la squadra che lavora al box",
+                                "il pubblico in tribuna",
+                                "i giornalisti"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Engineer\" significa…",
+                            "opzioni": [
+                                "ingegnere",
+                                "meccanico",
+                                "magazziniere"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Every rider has got two ______ in the garage. (moto)",
+                            "accettate": [
+                                "bikes"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: have got",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ got two sisters.",
+                            "accettate": [
+                                "have",
+                                "'ve"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ got a new helmet.",
+                            "accettate": [
+                                "has",
+                                "'s"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ got much time! (negativo)",
+                            "accettate": [
+                                "haven't",
+                                "have not"
+                            ],
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ you got a big family?\"",
+                            "opzioni": [
+                                "Have",
+                                "Has",
+                                "Are"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Has the bike got a problem?\" — \"No, it ______.\"",
+                            "opzioni": [
+                                "hasn't",
+                                "haven't",
+                                "isn't"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "This is my ______ bike. (di mio fratello: brother)",
+                            "accettate": [
+                                "brother's",
+                                "brothers"
+                            ],
+                            "spiegazione": "Il possesso si scrive con l'apostrofo: brother's.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He have got a sister\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Con he/she/it: has got.",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"I've got\" è la forma contratta di \"I have got\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Marc ______ got brown eyes.",
+                            "opzioni": [
+                                "has",
+                                "have",
+                                "is"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "I have got two brothers and a sister.",
+                            "accettate": [
+                                "i have got two brothers and a sister"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "The chief mechanic is very kind.",
+                            "accettate": [
+                                "the chief mechanic is very kind"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Anna has got short hair and blue eyes.",
+                            "testo": "Com'è Anna?",
+                            "opzioni": [
+                                "Capelli corti e occhi azzurri",
+                                "Capelli lunghi e occhi verdi",
+                                "Capelli corti e occhi marroni"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Have you got a minute? Yes, of course.",
+                            "testo": "La risposta è…",
+                            "opzioni": [
+                                "sì",
+                                "no",
+                                "forse"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "\"Of course\" = certo.",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "I've got two brothers.",
+                            "aiuto": "Ho due fratelli.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Have you got a big family?",
+                            "aiuto": "Hai una famiglia numerosa?",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Our chief mechanic is very good.",
+                            "aiuto": "Il nostro capo meccanico è molto bravo.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "The bike has got a problem.",
+                            "aiuto": "La moto ha un problema.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Il mio capo meccanico ha due figli.\"",
+                            "modello": "My chief mechanic has got two children.",
+                            "spiegazione": "Accettabile anche \"has two children\". Children, non childs!",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Descrivi una persona della tua famiglia in tre frasi: chi è, com'è, che cosa ha.",
+                            "guida": "Controlla: has got con he/she? Aggettivo prima del nome? Hair senza plurale?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "She ______ got a sister.",
+                    "accettate": [
+                        "has",
+                        "'s"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Have they got children?\" — \"Yes, they ______.\"",
+                    "opzioni": [
+                        "have",
+                        "has",
+                        "are"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "My father and my mother are my ______.",
+                    "accettate": [
+                        "parents"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Crew\" è…",
+                    "opzioni": [
+                        "la squadra del box",
+                        "la tribuna",
+                        "il contratto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "This is ______ helmet. (di Anna)",
+                    "accettate": [
+                        "anna's",
+                        "annas"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "He's got ______ hair.",
+                    "opzioni": [
+                        "short",
+                        "shorts",
+                        "shortly"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "Our engineer has got a new idea.",
+                    "accettate": [
+                        "our engineer has got a new idea"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 3: one child, two ______.",
+                    "accettate": [
+                        "children"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 3: la gara è ______ domenica.",
+                    "opzioni": [
+                        "on",
+                        "in",
+                        "at"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 3: it's half ______ six. (6:30)",
+                    "accettate": [
+                        "past"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-04"
+        },
+        {
+            "numero": 5,
+            "titolo": "Ogni giorno alle otto — il present simple",
+            "giorni": "Giorni 8–9",
+            "descrizione": "Le abitudini e la routine: il present simple affermativo, la -s della terza persona, la giornata del meccanico.",
+            "teoria": [
+                {
+                    "titolo": "Il present simple: la forma",
+                    "html": "<p>Il <strong>present simple</strong> (presente semplice) racconta abitudini e fatti: <em>I work in a garage</em> — lavoro in un'officina. La forma è il verbo base per tutti… tranne <strong>he/she/it</strong>, che aggiunge la <strong>-s</strong>:</p>\n<table><tr><th>Persona</th><th>work</th><th>check</th></tr>\n<tr><td>I / you / we / they</td><td>work</td><td>check</td></tr>\n<tr><td>he / she / it</td><td>work<strong>s</strong></td><td>check<strong>s</strong></td></tr></table>\n<p>Regole della -s: dopo -ch/-sh/-s/-x si aggiunge <strong>-es</strong> (<em>watch → watches, finish → finishes, go → goes, do → does</em>); la y dopo consonante diventa <strong>-ies</strong> (<em>study → studies</em>); <em>have</em> è irregolare: <em>he <strong>has</strong></em>.</p>"
+                },
+                {
+                    "titolo": "I verbi della routine",
+                    "html": "<p>Le azioni di ogni giorno, da imparare come coppie verbo + significato: <em>get up</em> (alzarsi), <em>have breakfast/lunch/dinner</em> (fare colazione / pranzare / cenare), <em>go to work</em> (andare al lavoro), <em>start</em> (iniziare), <em>finish</em> (finire), <em>watch TV</em> (guardare la TV), <em>listen to music</em> (ascoltare musica), <em>go to bed</em> (andare a letto).</p>\n<p>Con gli orari si usa <strong>at</strong>: <em>I get up at seven. I start work at eight.</em></p>"
+                },
+                {
+                    "titolo": "La giornata del meccanico",
+                    "html": "<p>Un esempio completo, da leggere e riascoltare: è il modello per il writing di fine unità.</p>\n<p><em>Dan is a mechanic. He gets up at six o'clock and has breakfast at half past six. He goes to the workshop by car and starts work at eight. Every morning he checks the bikes and cleans the garage. He has lunch at one. He finishes work at six and watches MotoGP videos in the evening.</em></p>\n<p>Parole nuove: <em>workshop</em> (officina), <em>check</em> (controllare), <em>clean</em> (pulire), <em>arrive</em> (arrivare), <em>practise</em> (allenarsi/provare).</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "La routine di ogni giorno",
+                    "intro": "Completa con il verbo giusto (attenzione alla terza persona).",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ up at seven o'clock. (alzarsi: get)",
+                            "accettate": [
+                                "get"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ breakfast at half past seven. (have)",
+                            "accettate": [
+                                "has"
+                            ],
+                            "spiegazione": "Have è irregolare alla terza persona: has.",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Finish\" significa…",
+                            "opzioni": [
+                                "finire",
+                                "iniziare",
+                                "mangiare"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ to work by bus. (andare: go)",
+                            "accettate": [
+                                "go"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Have lunch\" significa…",
+                            "opzioni": [
+                                "pranzare",
+                                "cenare",
+                                "fare colazione"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "My day ______ at six in the evening. (finire: finish)",
+                            "accettate": [
+                                "finishes"
+                            ],
+                            "spiegazione": "Dopo -sh la terza persona vuole -es: finishes.",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "La giornata di lavoro al box.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "The mechanic ______ the bike every morning. (controllare: check)",
+                            "accettate": [
+                                "checks"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Workshop\" significa…",
+                            "opzioni": [
+                                "officina",
+                                "negozio",
+                                "magazzino"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The team ______ at the circuit on Thursday. (arrivare: arrive)",
+                            "accettate": [
+                                "arrives"
+                            ],
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Clean the bike\" significa…",
+                            "opzioni": [
+                                "pulire la moto",
+                                "vendere la moto",
+                                "guidare la moto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The riders ______ on Friday morning. (provare: practise)",
+                            "accettate": [
+                                "practise",
+                                "practice"
+                            ],
+                            "spiegazione": "Soggetto plurale (the riders): niente -s al verbo.",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: la -s della terza persona",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "He ______ in a MotoGP team.",
+                            "opzioni": [
+                                "works",
+                                "work",
+                                "working"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ TV in the evening. (watch)",
+                            "accettate": [
+                                "watches"
+                            ],
+                            "spiegazione": "Dopo -ch: -es.",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "My brother ______ to music in the garage. (listen)",
+                            "accettate": [
+                                "listens"
+                            ],
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "I ______ English every day.",
+                            "opzioni": [
+                                "study",
+                                "studies",
+                                "studys"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "La -ies serve solo con he/she/it; con I resta study.",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ two bikes. (have)",
+                            "accettate": [
+                                "has"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The race ______ at two o'clock. (start)",
+                            "accettate": [
+                                "starts"
+                            ],
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "Con he/she/it il verbo del present simple prende la -s.",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"She gos to work at eight\" è scritto correttamente.",
+                            "risposta": "F",
+                            "spiegazione": "Go alla terza persona si scrive goes.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "They ______ every afternoon.",
+                            "opzioni": [
+                                "train",
+                                "trains",
+                                "training"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "They è plurale: niente -s.",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "He gets up at six o'clock.",
+                            "accettate": [
+                                "he gets up at six o'clock",
+                                "he gets up at 6 oclock"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "We start work at eight.",
+                            "accettate": [
+                                "we start work at eight"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "The mechanic checks the tyres every morning.",
+                            "testo": "Che cosa controlla ogni mattina?",
+                            "opzioni": [
+                                "Le gomme",
+                                "Il motore",
+                                "Il casco"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "She finishes work at seven in the evening.",
+                            "testo": "Quando finisce di lavorare?",
+                            "opzioni": [
+                                "Alle 7 di sera",
+                                "Alle 7 di mattina",
+                                "Alle 5 di sera"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "\"In the evening\" = di sera.",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "I get up at seven o'clock.",
+                            "aiuto": "Mi alzo alle sette.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I work in a garage.",
+                            "aiuto": "Lavoro in un'officina.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "The team arrives on Thursday.",
+                            "aiuto": "La squadra arriva giovedì.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "He checks the bike every day.",
+                            "aiuto": "Controlla la moto ogni giorno.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Il meccanico inizia il lavoro alle otto e controlla la moto.\"",
+                            "modello": "The mechanic starts work at eight and checks the bike.",
+                            "spiegazione": "Due verbi, due -s: starts e checks.",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Racconta la tua giornata tipo in quattro frasi: quando ti alzi, il lavoro, il pranzo, quando finisci.",
+                            "guida": "Parli di te (I): niente -s ai verbi. At + orari. Guarda il modello di Dan nella teoria.",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "He ______ up at seven. (get)",
+                    "accettate": [
+                        "gets"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "She ______ in the paddock.",
+                    "opzioni": [
+                        "works",
+                        "work",
+                        "is work"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "The race ______ at two o'clock. (start)",
+                    "accettate": [
+                        "starts"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Workshop\" significa…",
+                    "opzioni": [
+                        "officina",
+                        "ufficio",
+                        "mensa"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "I ______ lunch at one o'clock. (have)",
+                    "accettate": [
+                        "have"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "He ______ to the circuit by car. (go)",
+                    "accettate": [
+                        "goes"
+                    ],
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "We clean the garage every evening.",
+                    "accettate": [
+                        "we clean the garage every evening"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 4: she ______ got two children.",
+                    "accettate": [
+                        "has",
+                        "'s"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 4: \"chief mechanic\" è…",
+                    "opzioni": [
+                        "il capo meccanico",
+                        "il direttore di gara",
+                        "il pilota"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 4: this is my ______ helmet. (di mio fratello: brother)",
+                    "accettate": [
+                        "brother's",
+                        "brothers"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-05"
+        },
+        {
+            "numero": 6,
+            "titolo": "Non lavoro la domenica — negativo, domande e frequenza",
+            "giorni": "Giorni 10–11",
+            "descrizione": "Don't/doesn't, le domande con do/does, gli avverbi di frequenza, i lavori e le professioni.",
+            "teoria": [
+                {
+                    "titolo": "Negativo e domande: don't / doesn't, do / does",
+                    "html": "<p>Al present simple negativo e domande usano gli aiutanti <strong>do/does</strong>. Regola d'oro: quando c'è does (o doesn't), <strong>la -s se ne va</strong> dal verbo — è già dentro l'aiutante.</p>\n<table><tr><th></th><th>Negativa</th><th>Domanda</th><th>Risposte brevi</th></tr>\n<tr><td>I / you / we / they</td><td>don't work</td><td>Do you work?</td><td>Yes, I do. / No, I don't.</td></tr>\n<tr><td>he / she / it</td><td>doesn't work</td><td>Does he work?</td><td>Yes, he does. / No, he doesn't.</td></tr></table>\n<p>Esempi: <em>I don't work on Sundays. Does she speak English? He doesn't <strong>live</strong> in Italy</em> (non <s>doesn't lives</s>).</p>"
+                },
+                {
+                    "titolo": "Gli avverbi di frequenza",
+                    "html": "<p>Quanto spesso? <strong>always</strong> (sempre) → <strong>usually</strong> (di solito) → <strong>often</strong> (spesso) → <strong>sometimes</strong> (a volte) → <strong>never</strong> (mai).</p>\n<p>La posizione: <strong>prima del verbo</strong> (<em>I always check the tyres</em>), ma <strong>dopo il verbo be</strong> (<em>I am never late</em> — non sono mai in ritardo). Nota: never è già negativo, il verbo resta positivo: <em>I never smoke</em>, non <s>I don't never smoke</s>.</p>"
+                },
+                {
+                    "titolo": "Lavori e professioni",
+                    "html": "<p>La domanda chiave: <strong>What do you do?</strong> — Che lavoro fai? Risposta: <em>I'm a mechanic.</em> (con l'articolo a!).</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>teacher</td><td>insegnante</td></tr>\n<tr><td>driver / truck driver</td><td>autista / camionista</td></tr>\n<tr><td>cook</td><td>cuoco</td></tr>\n<tr><td>nurse</td><td>infermiere/a</td></tr>\n<tr><td>shop assistant</td><td>commesso/a</td></tr>\n<tr><td>office worker</td><td>impiegato/a</td></tr></table>\n<p>Al box: <em>shift</em> (turno), <em>day off</em> (giorno libero), <em>meeting</em> (riunione), <em>boss</em> (capo). <em>The truck drivers take the bikes from circuit to circuit.</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Lavori e professioni",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Nurse\" significa…",
+                            "opzioni": [
+                                "infermiere/a",
+                                "cuoco",
+                                "autista"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "\"What do you ______?\" — \"I'm a mechanic.\" (fare)",
+                            "accettate": [
+                                "do"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Cook\" significa…",
+                            "opzioni": [
+                                "cuoco",
+                                "cameriere",
+                                "contadino"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "A bus ______ drives a bus. (autista)",
+                            "accettate": [
+                                "driver"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Teacher\" significa…",
+                            "opzioni": [
+                                "insegnante",
+                                "studente",
+                                "impiegato"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She works in a shop: she is a shop ______.",
+                            "accettate": [
+                                "assistant"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Turni e mansioni.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Shift\" significa…",
+                            "opzioni": [
+                                "turno di lavoro",
+                                "cambio gomme",
+                                "contratto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Monday is my day ______. (giorno libero)",
+                            "accettate": [
+                                "off"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Il \"boss\" del box è…",
+                            "opzioni": [
+                                "the chief mechanic",
+                                "the fan",
+                                "the cook"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The truck ______ takes the bikes to the circuit. (camionista)",
+                            "accettate": [
+                                "driver"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Meeting\" significa…",
+                            "opzioni": [
+                                "riunione",
+                                "mensa",
+                                "officina"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: don't, doesn't, do, does",
+                    "intro": "Completa o scegli. Ricorda: con does la -s se ne va dal verbo.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ work on Sundays. (negativo)",
+                            "accettate": [
+                                "don't",
+                                "do not"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ speak French. (negativo)",
+                            "accettate": [
+                                "doesn't",
+                                "does not"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ you work on Saturdays?\"",
+                            "opzioni": [
+                                "Do",
+                                "Does",
+                                "Are"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Does she work here?\" — \"Yes, she ______.\"",
+                            "opzioni": [
+                                "does",
+                                "do",
+                                "works"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He doesn't ______ in Italy. (vivere: live)",
+                            "accettate": [
+                                "live"
+                            ],
+                            "spiegazione": "Dopo doesn't il verbo torna alla forma base, senza -s.",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "I ______ late for work. (mai)",
+                            "opzioni": [
+                                "am never",
+                                "never am",
+                                "am not never"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Con il verbo be l'avverbio va dopo: I am never late.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ go to the sea in summer. (di solito)",
+                            "accettate": [
+                                "usually"
+                            ],
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He don't work here\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Con he/she/it: doesn't.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "Gli avverbi di frequenza di solito vanno prima del verbo principale.",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "I don't work on Sundays.",
+                            "accettate": [
+                                "i don't work on sundays",
+                                "i do not work on sundays"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "What do you do?",
+                            "accettate": [
+                                "what do you do"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Does he speak English? No, he doesn't.",
+                            "testo": "Lui parla inglese?",
+                            "opzioni": [
+                                "No",
+                                "Sì",
+                                "Solo un po'"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "She always arrives at eight o'clock.",
+                            "testo": "Quando arriva?",
+                            "opzioni": [
+                                "Sempre alle 8",
+                                "Mai alle 8",
+                                "A volte alle 8"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "I don't work on Sundays.",
+                            "aiuto": "Non lavoro la domenica.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Do you speak English? Yes, a little.",
+                            "aiuto": "Parli inglese? Sì, un po'.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I usually start work at eight.",
+                            "aiuto": "Di solito inizio a lavorare alle otto.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "What do you do? I'm a mechanic.",
+                            "aiuto": "Che lavoro fai? Sono un meccanico.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Non lavoro la domenica, ma lavoro sempre il sabato.\"",
+                            "modello": "I don't work on Sundays, but I always work on Saturdays.",
+                            "spiegazione": "Always prima del verbo.",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi tre frasi sul tuo lavoro: cosa fai, cosa non fai, e una con un avverbio di frequenza.",
+                            "guida": "Controlla: don't per il negativo? Avverbio prima del verbo? \"I'm a…\" con l'articolo?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "She ______ work on Mondays. (negativo)",
+                    "accettate": [
+                        "doesn't",
+                        "does not"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Do you speak English?\" — \"Yes, I ______.\"",
+                    "opzioni": [
+                        "do",
+                        "does",
+                        "speak"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"I ______ drink coffee at night.\" (mai)",
+                    "opzioni": [
+                        "never",
+                        "always",
+                        "usually"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "\"What do you ______?\" — \"I'm a truck driver.\"",
+                    "accettate": [
+                        "do"
+                    ],
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Shift\" significa…",
+                    "opzioni": [
+                        "turno",
+                        "ferie",
+                        "paga"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "He doesn't ______ French. (parlare)",
+                    "accettate": [
+                        "speak"
+                    ],
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "Do you work on Saturdays?",
+                    "accettate": [
+                        "do you work on saturdays"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 5: he ______ the bike every morning. (check)",
+                    "accettate": [
+                        "checks"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 5: she ______ breakfast at seven. (have)",
+                    "accettate": [
+                        "has"
+                    ],
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 5: \"finish\" significa…",
+                    "opzioni": [
+                        "finire",
+                        "iniziare",
+                        "pulire"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-06"
+        },
+        {
+            "numero": 7,
+            "titolo": "C'è, ci sono — there is/are e gli attrezzi",
+            "giorni": "Giorni 12–13",
+            "descrizione": "Dire che cosa c'è e dove si trova: there is/are, le preposizioni di luogo, gli attrezzi dell'officina.",
+            "teoria": [
+                {
+                    "titolo": "There is / There are",
+                    "html": "<p>\"C'è\" e \"ci sono\": <strong>there is</strong> + singolare, <strong>there are</strong> + plurale.</p>\n<table><tr><th></th><th>Singolare</th><th>Plurale</th></tr>\n<tr><td>Affermativa</td><td>There is a bike.</td><td>There are four riders.</td></tr>\n<tr><td>Negativa</td><td>There isn't a problem.</td><td>There aren't any gloves.</td></tr>\n<tr><td>Domanda</td><td>Is there a toolbox?</td><td>Are there any tools?</td></tr></table>\n<p>Risposte brevi: <em>Yes, there is. / No, there isn't. / Yes, there are. / No, there aren't.</em></p>"
+                },
+                {
+                    "titolo": "Le preposizioni di luogo",
+                    "html": "<p>Dove si trova? <strong>in</strong> (dentro), <strong>on</strong> (sopra, a contatto), <strong>under</strong> (sotto), <strong>next to</strong> (accanto a), <strong>behind</strong> (dietro), <strong>in front of</strong> (davanti a), <strong>between</strong> (tra due cose).</p>\n<p>Esempi: <em>The spanner is <strong>in</strong> the toolbox. The helmet is <strong>on</strong> the workbench. The truck is <strong>behind</strong> the garage. The bike is <strong>between</strong> the workbench and the wall.</em></p>"
+                },
+                {
+                    "titolo": "Casa e città",
+                    "html": "<p>Le stanze: <em>kitchen</em> (cucina), <em>bathroom</em> (bagno), <em>bedroom</em> (camera), <em>living room</em> (soggiorno). In città: <em>station</em> (stazione), <em>supermarket</em>, <em>hospital</em> (ospedale), <em>square</em> (piazza).</p>"
+                },
+                {
+                    "titolo": "Gli attrezzi dell'officina",
+                    "html": "<p>Il cuore del lessico da meccanico — da sapere a memoria prima del colloquio:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>spanner (anche: wrench)</td><td>chiave (attrezzo)</td></tr>\n<tr><td>screwdriver</td><td>cacciavite</td></tr>\n<tr><td>hammer</td><td>martello</td></tr>\n<tr><td>gloves</td><td>guanti</td></tr>\n<tr><td>toolbox</td><td>cassetta degli attrezzi</td></tr>\n<tr><td>workbench</td><td>banco da lavoro</td></tr>\n<tr><td>tool</td><td>attrezzo (in generale)</td></tr></table>\n<p><em>There is a screwdriver on the workbench and the spanners are in the toolbox.</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Casa, città e posizioni",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "We cook in the ______.",
+                            "accettate": [
+                                "kitchen"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Bathroom\" significa…",
+                            "opzioni": [
+                                "bagno",
+                                "camera da letto",
+                                "cucina"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "There is a supermarket ______ to the station. (accanto)",
+                            "accettate": [
+                                "next"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"In front of\" significa…",
+                            "opzioni": [
+                                "davanti a",
+                                "dietro a",
+                                "sotto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The cat is ______ the table. (sotto)",
+                            "accettate": [
+                                "under"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Hospital\" significa…",
+                            "opzioni": [
+                                "ospedale",
+                                "ospite",
+                                "hotel"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Gli attrezzi: il lessico più importante del corso per il tuo lavoro.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Spanner\" è…",
+                            "opzioni": [
+                                "la chiave (attrezzo)",
+                                "il martello",
+                                "il cacciavite"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "In America si dice anche wrench.",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The ______ is full of tools. (cassetta degli attrezzi)",
+                            "accettate": [
+                                "toolbox"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Screwdriver\" è…",
+                            "opzioni": [
+                                "il cacciavite",
+                                "il trapano",
+                                "la chiave"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Screw = vite, driver = che la gira.",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Put your ______ on before you work. (guanti)",
+                            "accettate": [
+                                "gloves"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Workbench\" è…",
+                            "opzioni": [
+                                "il banco da lavoro",
+                                "la panchina del parco",
+                                "il magazzino"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: there is / there are",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "______ is a bike in the garage.",
+                            "accettate": [
+                                "there"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "There ______ four riders in the team.",
+                            "accettate": [
+                                "are"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ there a toolbox here?\"",
+                            "opzioni": [
+                                "Is",
+                                "Are",
+                                "Have"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Are there any gloves?\" — \"No, there ______.\"",
+                            "opzioni": [
+                                "aren't",
+                                "isn't",
+                                "don't"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "There ______ a problem with the engine, everything is OK. (negativo)",
+                            "accettate": [
+                                "isn't"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "The spanner is ______ the toolbox. (dentro)",
+                            "opzioni": [
+                                "in",
+                                "on",
+                                "under"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The bike is ______ the truck and the workbench. (tra)",
+                            "accettate": [
+                                "between"
+                            ],
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"There is three hammers\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Tre martelli è plurale: there are.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Behind\" significa \"dietro\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "There is a screwdriver on the workbench.",
+                            "accettate": [
+                                "there is a screwdriver on the workbench"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "The gloves are in the toolbox.",
+                            "accettate": [
+                                "the gloves are in the toolbox"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "The helmet is on the workbench.",
+                            "testo": "Dov'è il casco?",
+                            "opzioni": [
+                                "Sul banco da lavoro",
+                                "Sotto il banco da lavoro",
+                                "Nella cassetta degli attrezzi"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Is there a problem? No, everything is OK.",
+                            "testo": "C'è un problema?",
+                            "opzioni": [
+                                "No",
+                                "Sì",
+                                "Non si capisce"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "There is a problem with the bike.",
+                            "aiuto": "C'è un problema con la moto.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "The spanner is in the toolbox.",
+                            "aiuto": "La chiave è nella cassetta degli attrezzi.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Is there a mechanic here?",
+                            "aiuto": "C'è un meccanico qui?",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "The garage is next to the truck.",
+                            "aiuto": "Il box è accanto al camion.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"C'è un cacciavite sul banco da lavoro.\"",
+                            "modello": "There is a screwdriver on the workbench.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Descrivi la tua stanza o la tua officina: tre frasi con there is / there are e una preposizione di luogo diversa in ogni frase.",
+                            "guida": "Controlla: is con il singolare, are con il plurale? Preposizione giusta (in / on / under / next to)?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "There ______ two bikes in the garage.",
+                    "accettate": [
+                        "are"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Is there a toolbox?\" — \"Yes, there ______.\"",
+                    "opzioni": [
+                        "is",
+                        "are",
+                        "has"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Hammer\" è…",
+                    "opzioni": [
+                        "il martello",
+                        "la chiave",
+                        "il guanto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "The truck is ______ the garage. (dietro)",
+                    "accettate": [
+                        "behind"
+                    ],
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Between\" significa…",
+                    "opzioni": [
+                        "tra",
+                        "sopra",
+                        "sotto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "There ______ a spanner here: the toolbox is empty! (negativo)",
+                    "accettate": [
+                        "isn't"
+                    ],
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The toolbox is under the workbench.",
+                    "accettate": [
+                        "the toolbox is under the workbench"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 6: he ______ work on Sundays. (negativo)",
+                    "accettate": [
+                        "doesn't",
+                        "does not"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 6: \"I ______ arrive late.\" (mai)",
+                    "opzioni": [
+                        "never",
+                        "sometimes",
+                        "usually"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 6: \"What do you ______?\" — \"I'm a cook.\"",
+                    "accettate": [
+                        "do"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-07"
+        },
+        {
+            "numero": 8,
+            "titolo": "Can you help me? — sapere fare e chiedere",
+            "giorni": "Giorni 14–15",
+            "descrizione": "Can per abilità, permessi e richieste; le indicazioni stradali; orientarsi nel circuito e nel paddock.",
+            "teoria": [
+                {
+                    "titolo": "Il verbo can",
+                    "html": "<p><strong>Can</strong> ha tre usi, tutti con la stessa forma: <strong>abilità</strong> (<em>I can ride a motorbike</em> — so guidare la moto), <strong>richiesta</strong> (<em>Can you help me?</em> — puoi aiutarmi?), <strong>permesso</strong> (<em>Can I park here?</em> — posso parcheggiare qui?).</p>\n<p>Tre regole semplicissime: can è <strong>uguale per tutte le persone</strong> (niente -s: <em>he can</em>, mai <s>he cans</s>); dopo can il verbo va alla <strong>forma base senza to</strong> (<em>I can ride</em>, non <s>I can to ride</s>); il negativo è <strong>can't</strong> (= cannot). Domanda: <em>Can you…?</em> Risposte: <em>Yes, I can. / No, I can't.</em></p>"
+                },
+                {
+                    "titolo": "Le indicazioni stradali",
+                    "html": "<p>Per chiedere: <em><strong>Excuse me, where is</strong> the station?</em> — Scusi, dov'è la stazione? Per rispondere:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>turn left / turn right</td><td>gira a sinistra / a destra</td></tr>\n<tr><td>go straight on</td><td>vai dritto</td></tr>\n<tr><td>take the first/second street</td><td>prendi la prima/seconda via</td></tr>\n<tr><td>near / far</td><td>vicino / lontano</td></tr>\n<tr><td>it's next to…</td><td>è accanto a…</td></tr></table>\n<p><em>Go straight on and turn right at the bar: the station is near.</em></p>"
+                },
+                {
+                    "titolo": "Muoversi nel circuito",
+                    "html": "<p>I luoghi di un circuito, per non perdersi il primo giorno di lavoro:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>track</td><td>pista</td></tr>\n<tr><td>pit lane</td><td>la corsia dei box</td></tr>\n<tr><td>gate</td><td>cancello</td></tr>\n<tr><td>entrance</td><td>ingresso</td></tr>\n<tr><td>grandstand</td><td>tribuna</td></tr></table>\n<p><em>Show your pass at the entrance, go straight on, and the paddock is behind the garages. You can't park in the pit lane!</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Le indicazioni stradali",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Turn left\" significa…",
+                            "opzioni": [
+                                "gira a sinistra",
+                                "gira a destra",
+                                "vai dritto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Go ______ on and the station is there. (dritto)",
+                            "accettate": [
+                                "straight"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Excuse me, ______ is the supermarket?\"",
+                            "opzioni": [
+                                "where",
+                                "who",
+                                "when"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Turn ______ at the bar. (destra)",
+                            "accettate": [
+                                "right"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Near\" significa…",
+                            "opzioni": [
+                                "vicino",
+                                "lontano",
+                                "dietro"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Take the ______ street on the left. (prima)",
+                            "accettate": [
+                                "first"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "I luoghi del circuito.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Pit lane\" è…",
+                            "opzioni": [
+                                "la corsia dei box",
+                                "la pista",
+                                "la tribuna"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The fans are in the ______. (tribuna)",
+                            "accettate": [
+                                "grandstand"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Track\" è…",
+                            "opzioni": [
+                                "la pista",
+                                "il camion",
+                                "il cancello"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Show your pass at the ______. (ingresso)",
+                            "accettate": [
+                                "entrance"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Gate\" è…",
+                            "opzioni": [
+                                "il cancello",
+                                "la gomma",
+                                "la bandiera"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: can",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ ride a motorbike. (so guidare)",
+                            "accettate": [
+                                "can"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ speak Japanese. (negativo)",
+                            "accettate": [
+                                "can't",
+                                "cannot"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ you help me, please?\"",
+                            "opzioni": [
+                                "Can",
+                                "Do",
+                                "Are"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Can she ride?\" — \"Yes, she ______.\"",
+                            "opzioni": [
+                                "can",
+                                "cans",
+                                "does"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "Con \"he\" si dice \"he cans\".",
+                            "risposta": "F",
+                            "spiegazione": "Can non prende mai la -s: he can.",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ I park here? (posso?)",
+                            "accettate": [
+                                "can"
+                            ],
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Dopo \"can\" il verbo va…",
+                            "opzioni": [
+                                "alla forma base senza to",
+                                "con la -s",
+                                "con to"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ see the track from here! (riusciamo a)",
+                            "accettate": [
+                                "can"
+                            ],
+                            "spiegazione": "",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Can't\" è la forma contratta di \"cannot\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "Can you help me, please?",
+                            "accettate": [
+                                "can you help me, please",
+                                "can you help me please"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "Turn right at the gate.",
+                            "accettate": [
+                                "turn right at the gate"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Go straight on and turn left at the entrance.",
+                            "testo": "Dove devi girare?",
+                            "opzioni": [
+                                "A sinistra all'ingresso",
+                                "A destra all'ingresso",
+                                "Da nessuna parte: sempre dritto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "You can't park in the pit lane.",
+                            "testo": "Si può parcheggiare nella pit lane?",
+                            "opzioni": [
+                                "No",
+                                "Sì",
+                                "Solo la domenica"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "Can you help me, please?",
+                            "aiuto": "Puoi aiutarmi, per favore?",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Where is the paddock?",
+                            "aiuto": "Dov'è il paddock?",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I can change a tyre very fast.",
+                            "aiuto": "So cambiare una gomma molto velocemente.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Turn left and go straight on.",
+                            "aiuto": "Gira a sinistra e vai dritto.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Scusi, dov'è l'ingresso? Giri a destra.\"",
+                            "modello": "Excuse me, where is the entrance? Turn right.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi le indicazioni da casa tua al bar più vicino: tre frasi.",
+                            "guida": "Controlla: turn left/right? go straight on? next to / near per la posizione finale?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "______ you ride a motorbike?",
+                    "accettate": [
+                        "can"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Can he help us?\" — \"No, he ______.\"",
+                    "opzioni": [
+                        "can't",
+                        "doesn't",
+                        "isn't"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Grandstand\" è…",
+                    "opzioni": [
+                        "la tribuna",
+                        "il box",
+                        "la pista"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Turn ______ at the gate. (sinistra)",
+                    "accettate": [
+                        "left"
+                    ],
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Dopo \"can\" il verbo va…",
+                    "opzioni": [
+                        "alla forma base",
+                        "con la -s",
+                        "con -ing"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Go ______ on. (dritto)",
+                    "accettate": [
+                        "straight"
+                    ],
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "Where is the pit lane?",
+                    "accettate": [
+                        "where is the pit lane"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 7: there ______ a toolbox on the workbench.",
+                    "accettate": [
+                        "is"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 7: \"under\" significa…",
+                    "opzioni": [
+                        "sotto",
+                        "sopra",
+                        "accanto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 7: the gloves are ______ the toolbox. (dentro)",
+                    "accettate": [
+                        "in"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-08"
+        },
+        {
+            "numero": 9,
+            "titolo": "Stiamo cambiando le gomme — il present continuous",
+            "giorni": "Giorni 16–17",
+            "descrizione": "Le azioni in corso adesso: be + -ing, la differenza con il present simple, il box in azione.",
+            "teoria": [
+                {
+                    "titolo": "La forma: be + verbo in -ing",
+                    "html": "<p>Il <strong>present continuous</strong> racconta che cosa sta succedendo <strong>adesso</strong>: si costruisce con <strong>be</strong> (am/is/are) + verbo in <strong>-ing</strong>.</p>\n<table><tr><th>Affermativa</th><th>Negativa</th><th>Domanda</th></tr>\n<tr><td>I am working</td><td>I'm not working</td><td>Am I working?</td></tr>\n<tr><td>he/she/it is working</td><td>he isn't working</td><td>Is he working?</td></tr>\n<tr><td>you/we/they are working</td><td>we aren't working</td><td>Are you working?</td></tr></table>\n<p>Spelling dell'-ing: la -e finale cade (<em>make → making</em>); le parole corte con una vocale raddoppiano la consonante finale (<em>get → getting, run → running</em>).</p>"
+                },
+                {
+                    "titolo": "Quando si usa: adesso, non ogni giorno",
+                    "html": "<p>La differenza con il present simple è tutta qui: <strong>abitudine</strong> contro <strong>adesso</strong>.</p>\n<p><em>Every day I <strong>check</strong> the bike.</em> — Ogni giorno controllo la moto (abitudine → present simple).<br>\n<em>Look! I <strong>am checking</strong> the bike now.</em> — Guarda! Sto controllando la moto ora (in corso → continuous).</p>\n<p>Le parole spia del continuous: <em>now</em> (ora), <em>at the moment</em> (in questo momento), <em>Look!</em> (guarda!), <em>Listen!</em> (ascolta!).</p>"
+                },
+                {
+                    "titolo": "Il box in azione",
+                    "html": "<p>I verbi del lavoro al box, qui in piena attività di gara:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>change the tyres</td><td>cambiare le gomme</td></tr>\n<tr><td>check the engine</td><td>controllare il motore</td></tr>\n<tr><td>fix</td><td>riparare</td></tr>\n<tr><td>warm up (the engine)</td><td>scaldare (il motore)</td></tr>\n<tr><td>talk to</td><td>parlare con</td></tr>\n<tr><td>come / go</td><td>venire / andare</td></tr></table>\n<p><em>Look! The mechanics are changing the tyres, the engineer is talking to the rider, and the engine is warming up. Race in ten minutes!</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Che cosa sta succedendo",
+                    "intro": "Completa con il verbo in -ing o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I am ______ TV now. (watch)",
+                            "accettate": [
+                                "watching"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"She's sleeping\" significa…",
+                            "opzioni": [
+                                "sta dormendo",
+                                "dorme sempre",
+                                "dormirà domani"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "They are ______ football in the park. (play)",
+                            "accettate": [
+                                "playing"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He is ______ a pizza. (make)",
+                            "accettate": [
+                                "making"
+                            ],
+                            "spiegazione": "La -e finale cade: making.",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"At the moment\" significa…",
+                            "opzioni": [
+                                "in questo momento",
+                                "ogni giorno",
+                                "domani"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Il box in piena attività.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "The mechanics are ______ the tyres. (change)",
+                            "accettate": [
+                                "changing"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He is ______ the engine. (check)",
+                            "accettate": [
+                                "checking"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Fix\" significa…",
+                            "opzioni": [
+                                "riparare",
+                                "rompere",
+                                "vendere"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The engineer is ______ to the rider. (talk)",
+                            "accettate": [
+                                "talking"
+                            ],
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Warm up the engine\" significa…",
+                            "opzioni": [
+                                "scaldare il motore",
+                                "lavare il motore",
+                                "spegnere il motore"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Look! The rider is ______ into the pit lane. (come)",
+                            "accettate": [
+                                "coming"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: be + -ing",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "Now I ______ working.",
+                            "opzioni": [
+                                "am",
+                                "is",
+                                "do"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ reading a book.",
+                            "accettate": [
+                                "is",
+                                "'s"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ not watching the race.",
+                            "accettate": [
+                                "are",
+                                "'re"
+                            ],
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ you listening to me?\"",
+                            "opzioni": [
+                                "Are",
+                                "Do",
+                                "Is"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "run → I am ______",
+                            "accettate": [
+                                "running"
+                            ],
+                            "spiegazione": "Parola corta, una vocale: la consonante raddoppia.",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Every day I check the bike. Now I ______ the truck.",
+                            "opzioni": [
+                                "am checking",
+                                "check",
+                                "checks"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "\"Now\" chiede il continuous.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "Il present continuous si usa per le abitudini di ogni giorno.",
+                            "risposta": "F",
+                            "spiegazione": "Per le abitudini c'è il present simple; il continuous è per ciò che accade ora.",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He's working\" è la forma contratta di \"He is working\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "What ______ they doing?",
+                            "opzioni": [
+                                "are",
+                                "is",
+                                "do"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "We are changing the tyres now.",
+                            "accettate": [
+                                "we are changing the tyres now"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "What are you doing?",
+                            "accettate": [
+                                "what are you doing"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "The rider is talking to the engineer.",
+                            "testo": "Con chi sta parlando il pilota?",
+                            "opzioni": [
+                                "Con l'ingegnere",
+                                "Con il meccanico",
+                                "Con un giornalista"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Hurry up! The race is starting!",
+                            "testo": "Che cosa sta succedendo?",
+                            "opzioni": [
+                                "La gara sta iniziando",
+                                "La gara è finita",
+                                "La gara è domani"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "\"Hurry up!\" = sbrigati!",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "I am working in the garage now.",
+                            "aiuto": "Sto lavorando nel box adesso.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "We are changing the tyres.",
+                            "aiuto": "Stiamo cambiando le gomme.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "What are you doing?",
+                            "aiuto": "Che cosa stai facendo?",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "The engine is warming up.",
+                            "aiuto": "Il motore si sta scaldando.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"I meccanici stanno cambiando le gomme.\"",
+                            "modello": "The mechanics are changing the tyres.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Guardati intorno e scrivi tre frasi su quello che sta succedendo adesso (anche cose semplici: piove, tua sorella sta guardando la TV…).",
+                            "guida": "Controlla: am/is/are + -ing in ogni frase? Spelling dell'-ing (making, getting)?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "She ______ working now.",
+                    "accettate": [
+                        "is",
+                        "'s"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "What are you ______?",
+                    "opzioni": [
+                        "doing",
+                        "do",
+                        "does"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "They are ______ the engine. (check)",
+                    "accettate": [
+                        "checking"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Fix\" significa…",
+                    "opzioni": [
+                        "riparare",
+                        "pulire",
+                        "comprare"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Look! It is ______! (rain: piovere)",
+                    "accettate": [
+                        "raining"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Every morning he ______ coffee. Now he ______ tea.",
+                    "opzioni": [
+                        "drinks / is drinking",
+                        "is drinking / drinks",
+                        "drink / drinking"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "Abitudine → simple; adesso → continuous.",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The team is working on the bike.",
+                    "accettate": [
+                        "the team is working on the bike"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 8: ______ you help me, please?",
+                    "accettate": [
+                        "can"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 8: \"pit lane\" è…",
+                    "opzioni": [
+                        "la corsia dei box",
+                        "la pista",
+                        "la tribuna"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 8: turn ______ at the entrance. (destra)",
+                    "accettate": [
+                        "right"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-09"
+        },
+        {
+            "numero": 10,
+            "titolo": "Check the tyres! — istruzioni e procedure",
+            "giorni": "Giorni 18–19",
+            "descrizione": "Dare e capire istruzioni: l'imperativo, i cartelli di sicurezza, i verbi delle procedure di officina.",
+            "teoria": [
+                {
+                    "titolo": "L'imperativo",
+                    "html": "<p>Per dare istruzioni e ordini si usa il verbo alla <strong>forma base, senza soggetto</strong>: <em>Check the tyre.</em> — Controlla la gomma. <em>Be careful!</em> — Stai attento!</p>\n<p>Il negativo si fa con <strong>Don't</strong> + forma base: <em>Don't touch!</em> — Non toccare! <em>Don't be late.</em> — Non fare tardi. Mai <s>don't to touch</s>: dopo don't niente to.</p>\n<p>Con <strong>please</strong> l'ordine diventa una richiesta gentile: <em>Check the tyres, please.</em> Nel box gli imperativi sono ovunque: sono il modo normale di lavorare, non sono scortesi.</p>"
+                },
+                {
+                    "titolo": "Cartelli e sicurezza",
+                    "html": "<p>I cartelli che troverai in officina e al circuito:</p>\n<table><tr><th>Cartello</th><th>Significato</th></tr>\n<tr><td>PUSH / PULL</td><td>spingere / tirare (sulle porte)</td></tr>\n<tr><td>NO ENTRY</td><td>vietato entrare</td></tr>\n<tr><td>DANGER</td><td>pericolo</td></tr>\n<tr><td>NO SMOKING</td><td>vietato fumare</td></tr>\n<tr><td>WEAR A HELMET</td><td>indossare il casco</td></tr></table>"
+                },
+                {
+                    "titolo": "I verbi delle procedure",
+                    "html": "<p>I verbi che sentirai ogni giorno dal capo meccanico:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>check</td><td>controllare</td></tr>\n<tr><td>tighten</td><td>stringere (viti, bulloni)</td></tr>\n<tr><td>remove</td><td>togliere</td></tr>\n<tr><td>replace</td><td>sostituire</td></tr>\n<tr><td>clean</td><td>pulire</td></tr>\n<tr><td>wear</td><td>indossare</td></tr>\n<tr><td>turn on / turn off</td><td>accendere / spegnere</td></tr></table>\n<p><em>Remove the wheel, replace the tyre, tighten the screws, and check everything twice.</em> — Togli la ruota, sostituisci la gomma, stringi le viti e controlla tutto due volte.</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Cartelli e avvisi",
+                    "intro": "Che cosa significano?",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "Sulla porta c'è scritto \"PUSH\":",
+                            "opzioni": [
+                                "spingere",
+                                "tirare",
+                                "vietato entrare"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"NO ENTRY\" significa…",
+                            "opzioni": [
+                                "vietato entrare",
+                                "uscita",
+                                "spingere"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ careful! The floor is wet. (imperativo di be)",
+                            "accettate": [
+                                "be"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"PULL\" significa…",
+                            "opzioni": [
+                                "tirare",
+                                "spingere",
+                                "parcheggiare"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ smoke here, please. (negativo)",
+                            "accettate": [
+                                "don't",
+                                "do not"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "I verbi delle procedure.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "______ the screws. (stringere)",
+                            "accettate": [
+                                "tighten"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Replace\" significa…",
+                            "opzioni": [
+                                "sostituire",
+                                "rompere",
+                                "controllare"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ the old tyre and put on the new one. (togliere)",
+                            "accettate": [
+                                "remove"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"WEAR A HELMET\" significa…",
+                            "opzioni": [
+                                "indossa il casco",
+                                "togli il casco",
+                                "compra un casco"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ off the engine, please. (spegnere: turn)",
+                            "accettate": [
+                                "turn"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"DANGER\" significa…",
+                            "opzioni": [
+                                "pericolo",
+                                "attenti al cane",
+                                "divieto di sosta"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: l'imperativo",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "______ the bike, please. (pulire)",
+                            "accettate": [
+                                "clean"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ touch the exhaust: it's hot! (negativo; exhaust = scarico)",
+                            "accettate": [
+                                "don't",
+                                "do not"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "L'imperativo si forma…",
+                            "opzioni": [
+                                "con il verbo base, senza soggetto",
+                                "con to + verbo",
+                                "con il verbo e la -s"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Don't be late!\" significa…",
+                            "opzioni": [
+                                "non fare tardi",
+                                "sii in ritardo",
+                                "non è tardi"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ your gloves before you start. (indossare)",
+                            "accettate": [
+                                "wear",
+                                "put on",
+                                "put"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Don't to touch\" è corretto.",
+                            "risposta": "F",
+                            "spiegazione": "Don't + forma base, senza to: Don't touch.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Please\" rende l'ordine più gentile.",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Turn ______ the lights, it's dark.\"",
+                            "opzioni": [
+                                "on",
+                                "off",
+                                "down"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Turn on = accendere; turn off = spegnere.",
+                            "n": 19
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "Check the tyres, please.",
+                            "accettate": [
+                                "check the tyres, please",
+                                "check the tyres please"
+                            ],
+                            "spiegazione": "",
+                            "n": 20
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "Don't touch the bike.",
+                            "accettate": [
+                                "don't touch the bike",
+                                "do not touch the bike"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Wear your gloves and be careful.",
+                            "testo": "Che cosa devi fare?",
+                            "opzioni": [
+                                "Mettere i guanti e stare attento",
+                                "Togliere i guanti",
+                                "Lavare i guanti"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Tighten the screws and replace the old tyre.",
+                            "testo": "Quante azioni ti chiede?",
+                            "opzioni": [
+                                "Due",
+                                "Una",
+                                "Tre"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Tighten (stringere) e replace (sostituire).",
+                            "n": 23
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "Check the front tyre, please.",
+                            "aiuto": "Controlla la gomma anteriore, per favore.",
+                            "n": 24
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Don't touch the engine, it's hot.",
+                            "aiuto": "Non toccare il motore, è caldo.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Be careful!",
+                            "aiuto": "Stai attento!",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Turn off the lights, please.",
+                            "aiuto": "Spegni le luci, per favore.",
+                            "n": 27
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Togli la ruota e sostituisci la gomma.\" (ruota = wheel)",
+                            "modello": "Remove the wheel and replace the tyre.",
+                            "spiegazione": "",
+                            "n": 28
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi tre regole di sicurezza per la tua officina, con gli imperativi (almeno una negativa con Don't).",
+                            "guida": "Controlla: verbo base senza soggetto? Don't + base per i divieti? Please dove serve gentilezza?",
+                            "n": 29
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "______ open that door: it's dangerous! (negativo)",
+                    "accettate": [
+                        "don't",
+                        "do not"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Tighten\" significa…",
+                    "opzioni": [
+                        "stringere",
+                        "allentare",
+                        "togliere"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "______ your helmet, please. (indossare)",
+                    "accettate": [
+                        "wear",
+                        "put on"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"PULL\" significa…",
+                    "opzioni": [
+                        "tirare",
+                        "spingere",
+                        "fermarsi"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "______ careful with the fuel. (essere)",
+                    "accettate": [
+                        "be"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Replace\" significa…",
+                    "opzioni": [
+                        "sostituire",
+                        "riparare",
+                        "ricordare"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "Clean the workbench, please.",
+                    "accettate": [
+                        "clean the workbench, please",
+                        "clean the workbench please"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 9: they ______ changing the tyres now.",
+                    "accettate": [
+                        "are",
+                        "'re"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 9: \"What are you doing?\" — risposta giusta:",
+                    "opzioni": [
+                        "I'm checking the engine.",
+                        "I check yesterday.",
+                        "I can engine."
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 9: look! It's ______. (rain)",
+                    "accettate": [
+                        "raining"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 29,
+            "id": "unit-10"
+        },
+        {
+            "numero": 11,
+            "titolo": "A tavola in hospitality — some, any, much, many",
+            "giorni": "Giorni 20–21",
+            "descrizione": "Ordinare da mangiare, chiedere con gentilezza, i quantificatori some/any e much/many, l'hospitality del team.",
+            "teoria": [
+                {
+                    "titolo": "Numerabili e non numerabili",
+                    "html": "<p>Alcune cose si contano (<em>a sandwich, two sandwiches</em>), altre no: <em>water, coffee, bread, cheese</em> non hanno il plurale e non vogliono a/an. Si dice <em>a bottle of water</em>, <em>a piece of bread</em> — si conta il contenitore, non la sostanza.</p>"
+                },
+                {
+                    "titolo": "Some, any, much, many",
+                    "html": "<table><tr><th>Parola</th><th>Quando</th><th>Esempio</th></tr>\n<tr><td><strong>some</strong></td><td>frasi affermative e offerte</td><td><em>There is some coffee. Would you like some tea?</em></td></tr>\n<tr><td><strong>any</strong></td><td>negative e domande</td><td><em>There isn't any bread. Is there any water?</em></td></tr>\n<tr><td><strong>many</strong></td><td>con i numerabili</td><td><em>How many sandwiches?</em></td></tr>\n<tr><td><strong>much</strong></td><td>con i non numerabili</td><td><em>How much coffee?</em></td></tr>\n<tr><td><strong>a lot of</strong></td><td>con tutti (molto/i)</td><td><em>a lot of water, a lot of fans</em></td></tr></table>"
+                },
+                {
+                    "titolo": "Ordinare e chiedere",
+                    "html": "<p>Le frasi pronte per il bar, il ristorante e la mensa: <em><strong>I'd like</strong> a sandwich, please</em> (vorrei…), <em><strong>Can I have</strong> a coffee, please?</em> (posso avere…?), <em><strong>Would you like</strong> some water?</em> (vuoi…? — offerta), <em>Yes, please. / No, thanks.</em></p>\n<p>Il cibo di base: <em>water, coffee, tea, bread</em> (pane), <em>cheese</em> (formaggio), <em>chicken</em> (pollo), <em>salad</em> (insalata), <em>chips</em> (patatine), <em>sandwich</em>.</p>"
+                },
+                {
+                    "titolo": "L'hospitality del team",
+                    "html": "<p>L'<strong>hospitality</strong> è la struttura dove il team mangia e riceve gli ospiti (<em>guests</em>). Ci si mangia a orari fissi: <em>The team has lunch at one o'clock in the hospitality. There is a lot of pasta and some chicken. The guests of the sponsors eat there too.</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Ordinare da mangiare",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"I'd like a sandwich\" significa…",
+                            "opzioni": [
+                                "vorrei un panino",
+                                "mi piace il panino",
+                                "ho un panino"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "I'd like = I would like = vorrei.",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Can I ______ a coffee, please? (avere)",
+                            "accettate": [
+                                "have"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Chicken\" significa…",
+                            "opzioni": [
+                                "pollo",
+                                "formaggio",
+                                "pane"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "A table for two, ______. (per favore)",
+                            "accettate": [
+                                "please"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Would you like some water?\" — per dire sì con gentilezza:",
+                            "opzioni": [
+                                "Yes, please.",
+                                "Yes, I want.",
+                                "Give me."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "For lunch I have chicken and ______. (insalata)",
+                            "accettate": [
+                                "salad"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "L'hospitality del team.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "La \"hospitality\" del team è…",
+                            "opzioni": [
+                                "l'area dove il team mangia e riceve gli ospiti",
+                                "il camion delle moto",
+                                "l'ufficio stampa"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The team has ______ at one o'clock. (il pranzo)",
+                            "accettate": [
+                                "lunch"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Guest\" significa…",
+                            "opzioni": [
+                                "ospite",
+                                "cuoco",
+                                "cameriere"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "There isn't ______ coffee in the machine. (nessuno/niente)",
+                            "accettate": [
+                                "any"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Menu\" significa…",
+                            "opzioni": [
+                                "menù",
+                                "mensa",
+                                "mancia"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: some, any, much, many",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "There is ______ water on the table. (un po' di)",
+                            "accettate": [
+                                "some"
+                            ],
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Is there ______ bread?",
+                            "accettate": [
+                                "any"
+                            ],
+                            "spiegazione": "Nelle domande: any.",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "How ______ people are there?",
+                            "opzioni": [
+                                "many",
+                                "much",
+                                "a lot"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Le persone si contano: many.",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "How ______ water do you drink?",
+                            "opzioni": [
+                                "much",
+                                "many",
+                                "some"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "L'acqua non si conta: much.",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We haven't got ______ tomatoes.",
+                            "accettate": [
+                                "any"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"A lot of\" si usa…",
+                            "opzioni": [
+                                "con tutti i nomi",
+                                "solo con i numerabili",
+                                "solo con i non numerabili"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Water\" ha il plurale \"waters\".",
+                            "risposta": "F",
+                            "spiegazione": "Non numerabile: niente plurale.",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Some\" si usa soprattutto nelle frasi affermative.",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "There are a ______ of sandwiches for everybody. (molti)",
+                            "accettate": [
+                                "lot"
+                            ],
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "Can I have a coffee, please?",
+                            "accettate": [
+                                "can i have a coffee, please",
+                                "can i have a coffee please"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "There isn't any water.",
+                            "accettate": [
+                                "there isn't any water",
+                                "there is not any water"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Would you like some tea or some coffee?",
+                            "testo": "Che cosa ti offre?",
+                            "opzioni": [
+                                "Tè o caffè",
+                                "Acqua o vino",
+                                "Pane o formaggio"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Lunch is at half past twelve in the hospitality.",
+                            "testo": "Dove si pranza?",
+                            "opzioni": [
+                                "In hospitality",
+                                "Al box",
+                                "In tribuna"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "Can I have a sandwich, please?",
+                            "aiuto": "Posso avere un panino, per favore?",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I'd like some water.",
+                            "aiuto": "Vorrei un po' d'acqua.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Is there any coffee?",
+                            "aiuto": "C'è del caffè?",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Lunch is at one o'clock.",
+                            "aiuto": "Il pranzo è all'una.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Vorrei un panino e un po' d'acqua, per favore.\"",
+                            "modello": "I'd like a sandwich and some water, please.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Ordina un pranzo completo in tre frasi (usa I'd like / Can I have e almeno un some).",
+                            "guida": "Controlla: please alla fine? Some nelle affermative, any nelle negative/domande?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "Is there ______ tea?",
+                    "accettate": [
+                        "any"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "How ______ sandwiches do we need?",
+                    "opzioni": [
+                        "many",
+                        "much",
+                        "some"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "I'd ______ a coffee, please. (vorrei)",
+                    "accettate": [
+                        "like"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Guest\" significa…",
+                    "opzioni": [
+                        "ospite",
+                        "pasto",
+                        "conto"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "There is ______ cheese in the fridge. (un po' di)",
+                    "accettate": [
+                        "some"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Water\" è un nome…",
+                    "opzioni": [
+                        "non numerabile",
+                        "numerabile",
+                        "plurale"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "Would you like some chicken?",
+                    "accettate": [
+                        "would you like some chicken"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 10: ______ touch the engine, it's hot! (negativo)",
+                    "accettate": [
+                        "don't",
+                        "do not"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 10: \"remove\" significa…",
+                    "opzioni": [
+                        "togliere",
+                        "stringere",
+                        "pulire"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 10: ______ your gloves, please. (indossare)",
+                    "accettate": [
+                        "wear",
+                        "put on"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-11"
+        },
+        {
+            "numero": 12,
+            "titolo": "La gara è stata fantastica — was, were e i regolari",
+            "giorni": "Giorni 22–23",
+            "descrizione": "Parlare di ieri: was/were, i verbi regolari in -ed, il report semplice di una gara.",
+            "teoria": [
+                {
+                    "titolo": "Il passato di be: was / were",
+                    "html": "<p>Be al passato ha due forme: <strong>was</strong> (I, he, she, it) e <strong>were</strong> (you, we, they).</p>\n<table><tr><th></th><th>Affermativa</th><th>Negativa</th><th>Domanda</th></tr>\n<tr><td>I / he / she / it</td><td>was</td><td>wasn't</td><td>Was he…?</td></tr>\n<tr><td>you / we / they</td><td>were</td><td>weren't</td><td>Were you…?</td></tr></table>\n<p><em>The race was fantastic. We were tired. Were you at the circuit? Yes, I was.</em></p>\n<p>Le parole del passato: <strong>yesterday</strong> (ieri), <strong>last</strong> night/week/year (ieri sera / la settimana scorsa / l'anno scorso), <strong>ago</strong> (fa: <em>two hours ago</em> — due ore fa, ago va dopo il tempo).</p>"
+                },
+                {
+                    "titolo": "I verbi regolari: -ed",
+                    "html": "<p>Il passato dei verbi regolari aggiunge <strong>-ed</strong>: <em>work → worked, finish → finished, clean → cleaned, check → checked, watch → watched, start → started</em>. La forma è uguale per tutte le persone: <em>he worked, we worked</em>.</p>\n<p>Negativo e domande usano <strong>did</strong>, e il verbo torna alla forma base: <em>She <strong>didn't watch</strong> the race. <strong>Did</strong> you <strong>work</strong> yesterday? Yes, I did.</em> Mai <s>didn't watched</s>: il passato sta già dentro did.</p>"
+                },
+                {
+                    "titolo": "Il report di gara",
+                    "html": "<p>Come si racconta com'è andata, con frasi semplici che si usano davvero:</p>\n<p><em>The race was great. He <strong>started</strong> tenth and <strong>finished</strong> second. The team <strong>worked</strong> very well. The mechanics <strong>checked</strong> the bike and <strong>cleaned</strong> the garage after the race. The boss was happy with the result.</em></p>\n<p>Parole nuove: <em>result</em> (risultato), <em>started tenth</em> (è partito decimo), <em>finished second</em> (è arrivato secondo).</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Ieri e i giorni scorsi",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ at home yesterday. (be)",
+                            "accettate": [
+                                "was"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "They ______ at the cinema last night. (be)",
+                            "accettate": [
+                                "were"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Yesterday\" significa…",
+                            "opzioni": [
+                                "ieri",
+                                "domani",
+                                "oggi"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The weather ______ terrible last week. (be)",
+                            "accettate": [
+                                "was"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Last night\" significa…",
+                            "opzioni": [
+                                "ieri sera / stanotte (passata)",
+                                "domani notte",
+                                "ogni notte"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 5
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Il report della gara di domenica.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "The race ______ fantastic! (be)",
+                            "accettate": [
+                                "was"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ second. (arrivare: finish)",
+                            "accettate": [
+                                "finished"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"He started tenth\" significa…",
+                            "opzioni": [
+                                "è partito decimo",
+                                "ha finito decimo",
+                                "ha dieci moto"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The mechanics ______ all night. (lavorare: work)",
+                            "accettate": [
+                                "worked"
+                            ],
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ the bike after the race. (pulire: clean)",
+                            "accettate": [
+                                "cleaned"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"The team was happy with the result\": il risultato era…",
+                            "opzioni": [
+                                "buono",
+                                "cattivo",
+                                "annullato"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: was/were e i regolari",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "I ______ tired yesterday.",
+                            "opzioni": [
+                                "was",
+                                "were",
+                                "am"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "You ______ late this morning. (be)",
+                            "accettate": [
+                                "were"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ watch the race. (negativo)",
+                            "accettate": [
+                                "didn't",
+                                "did not"
+                            ],
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ you watch MotoGP on Sunday?\"",
+                            "opzioni": [
+                                "Did",
+                                "Do",
+                                "Were"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "They ______ in the garage two hours ago. (be)",
+                            "accettate": [
+                                "were"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Did he work?\" — \"Yes, he ______.\"",
+                            "opzioni": [
+                                "did",
+                                "does",
+                                "worked"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ the tyres yesterday. (check)",
+                            "accettate": [
+                                "checked"
+                            ],
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He didn't finished the race\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Dopo didn't il verbo torna alla forma base: didn't finish.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Was\" si usa con I/he/she/it, \"were\" con you/we/they.",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "The race was fantastic.",
+                            "accettate": [
+                                "the race was fantastic"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "We worked until ten last night.",
+                            "accettate": [
+                                "we worked until ten last night"
+                            ],
+                            "spiegazione": "Until = fino a.",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "He started tenth and finished second.",
+                            "testo": "Dove è arrivato?",
+                            "opzioni": [
+                                "Secondo",
+                                "Decimo",
+                                "Primo"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Were you at the circuit yesterday? No, I was at home.",
+                            "testo": "Dov'era ieri?",
+                            "opzioni": [
+                                "A casa",
+                                "Al circuito",
+                                "Al bar"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "The race was fantastic.",
+                            "aiuto": "La gara è stata fantastica.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I was very tired yesterday.",
+                            "aiuto": "Ero molto stanco ieri.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "We worked all night.",
+                            "aiuto": "Abbiamo lavorato tutta la notte.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "He finished second.",
+                            "aiuto": "È arrivato secondo.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"La gara era bagnata e lui è arrivato terzo.\" (bagnata = wet)",
+                            "modello": "The race was wet and he finished third.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Racconta la tua giornata di ieri in tre frasi: usa was/were almeno una volta e un verbo in -ed almeno una volta.",
+                            "guida": "Controlla: was con io/lui/lei, were con noi/voi/loro? -ed sui verbi regolari? Yesterday o last… da qualche parte?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "I ______ at the circuit yesterday. (be)",
+                    "accettate": [
+                        "was"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "They ______ happy after the race. (be)",
+                    "accettate": [
+                        "were"
+                    ],
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "He ______ the bike last night. (clean)",
+                    "accettate": [
+                        "cleaned"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Did you watch the race?\" — \"Yes, I ______.\"",
+                    "opzioni": [
+                        "did",
+                        "watched",
+                        "do"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "She ______ finish the race. (negativo)",
+                    "accettate": [
+                        "didn't",
+                        "did not"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Two hours ago\" significa…",
+                    "opzioni": [
+                        "due ore fa",
+                        "tra due ore",
+                        "per due ore"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The team worked very well.",
+                    "accettate": [
+                        "the team worked very well"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 11: is there ______ water?",
+                    "accettate": [
+                        "any"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 11: \"I'd like\" significa…",
+                    "opzioni": [
+                        "vorrei",
+                        "mi piace",
+                        "ho"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 11: how ______ people are in the team?",
+                    "accettate": [
+                        "many"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-12"
+        },
+        {
+            "numero": 13,
+            "titolo": "Abbiamo vinto! — i verbi irregolari al passato",
+            "giorni": "Giorni 24–25",
+            "descrizione": "I verbi irregolari più importanti al passato e il racconto completo di un weekend di gara.",
+            "teoria": [
+                {
+                    "titolo": "Gli irregolari da sapere a memoria",
+                    "html": "<p>I verbi più usati sono quasi tutti irregolari: niente -ed, forma da imparare. Questi quindici coprono la maggior parte delle conversazioni:</p>\n<table><tr><th>Verbo</th><th>Passato</th><th>Significato</th></tr>\n<tr><td>go</td><td>went</td><td>andare</td></tr>\n<tr><td>have</td><td>had</td><td>avere</td></tr>\n<tr><td>get</td><td>got</td><td>prendere/ottenere</td></tr>\n<tr><td>see</td><td>saw</td><td>vedere</td></tr>\n<tr><td>come</td><td>came</td><td>venire</td></tr>\n<tr><td>take</td><td>took</td><td>prendere/portare</td></tr>\n<tr><td>make</td><td>made</td><td>fare/costruire</td></tr>\n<tr><td>do</td><td>did</td><td>fare</td></tr>\n<tr><td>say</td><td>said</td><td>dire</td></tr>\n<tr><td>buy</td><td>bought</td><td>comprare</td></tr>\n<tr><td>eat</td><td>ate</td><td>mangiare</td></tr>\n<tr><td><strong>win</strong></td><td><strong>won</strong></td><td>vincere</td></tr>\n<tr><td><strong>lose</strong></td><td><strong>lost</strong></td><td>perdere</td></tr>\n<tr><td><strong>ride</strong></td><td><strong>rode</strong></td><td>guidare (la moto)</td></tr>\n<tr><td>be</td><td>was/were</td><td>essere</td></tr></table>"
+                },
+                {
+                    "titolo": "Negativo e domande: come i regolari",
+                    "html": "<p>Buona notizia: al negativo e nelle domande gli irregolari si comportano come tutti gli altri — <strong>did/didn't + forma base</strong>: <em>I <strong>didn't go</strong>. <strong>Did</strong> you <strong>see</strong> the race?</em> L'errore da evitare: <s>Did you went?</s> — il passato sta già dentro did.</p>"
+                },
+                {
+                    "titolo": "Il racconto del weekend di gara",
+                    "html": "<p>Il modello per il writing di questa unità:</p>\n<p><em>On Friday we <strong>had</strong> practice and the rider <strong>rode</strong> very well. On Saturday he <strong>got</strong> a good position in qualifying. On Sunday the race <strong>was</strong> difficult, but he <strong>made</strong> a fantastic start and… we <strong>won</strong>! After the race we <strong>ate</strong> together in the hospitality and the boss <strong>said</strong>: \"Great job, guys!\"</em></p>\n<p>Nota: <em>got a podium</em> = è salito sul podio; <em>great job</em> = ottimo lavoro.</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Il passato di ogni giorno",
+                    "intro": "Completa con il passato del verbo tra parentesi.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ to the sea last summer. (go)",
+                            "accettate": [
+                                "went"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ a new phone yesterday. (buy)",
+                            "accettate": [
+                                "bought"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ pizza last night. (eat)",
+                            "accettate": [
+                                "ate"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Il passato di \"see\" è…",
+                            "opzioni": [
+                                "saw",
+                                "seed",
+                                "sawed"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ home at six. (come)",
+                            "accettate": [
+                                "came"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Il weekend di gara, al passato.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ the race! (win)",
+                            "accettate": [
+                                "won"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "They ______ the championship last year. (lose)",
+                            "accettate": [
+                                "lost"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ very well on Saturday. (ride)",
+                            "accettate": [
+                                "rode"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ practice on Friday. (have)",
+                            "accettate": [
+                                "had"
+                            ],
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"The rider got a podium\" significa…",
+                            "opzioni": [
+                                "è salito sul podio",
+                                "ha perso il podio",
+                                "ha costruito il podio"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The chief mechanic ______ a great job. (do)",
+                            "accettate": [
+                                "did"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: gli irregolari",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "Il passato di \"go\" è…",
+                            "opzioni": [
+                                "went",
+                                "goed",
+                                "gone"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ the race on TV. (see)",
+                            "accettate": [
+                                "saw"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She didn't ______ to the party. (go)",
+                            "accettate": [
+                                "go"
+                            ],
+                            "spiegazione": "Dopo didn't: forma base, non went.",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ you go to the circuit?\"",
+                            "opzioni": [
+                                "Did",
+                                "Went",
+                                "Do"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We ______ a lot of photos. (take)",
+                            "accettate": [
+                                "took"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Il passato di \"make\" è…",
+                            "opzioni": [
+                                "made",
+                                "maked",
+                                "mode"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ \"good morning\" and started work. (say)",
+                            "accettate": [
+                                "said"
+                            ],
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Did you went?\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Did + forma base: Did you go?",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Won\" è il passato di \"win\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "We won the race on Sunday.",
+                            "accettate": [
+                                "we won the race on sunday"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "I went to the circuit with my father.",
+                            "accettate": [
+                                "i went to the circuit with my father"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "He had a problem and lost the race.",
+                            "testo": "Che cosa è successo?",
+                            "opzioni": [
+                                "Ha perso la gara",
+                                "Ha vinto la gara",
+                                "Non è partito"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "She took the bus and came home at seven.",
+                            "testo": "Come è tornata a casa?",
+                            "opzioni": [
+                                "In autobus",
+                                "In moto",
+                                "A piedi"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "We won the race!",
+                            "aiuto": "Abbiamo vinto la gara!",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I went to work at seven.",
+                            "aiuto": "Sono andato al lavoro alle sette.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "He rode very well.",
+                            "aiuto": "Ha guidato molto bene.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "We had a fantastic weekend.",
+                            "aiuto": "Abbiamo passato un weekend fantastico.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Sabato abbiamo vinto la gara e la squadra era felicissima.\"",
+                            "modello": "On Saturday we won the race and the team was very happy.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Racconta il tuo ultimo weekend in quattro frasi al passato, con almeno due verbi irregolari.",
+                            "guida": "Controlla sulla tabella della teoria: gli irregolari sono giusti? Dopo didn't c'è la forma base?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "I ______ to the circuit last Sunday. (go)",
+                    "accettate": [
+                        "went"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "We ______ the race. (win)",
+                    "accettate": [
+                        "won"
+                    ],
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Il passato di \"have\" è…",
+                    "opzioni": [
+                        "had",
+                        "haved",
+                        "has"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Did you ______ the race on TV? (see)",
+                    "accettate": [
+                        "see"
+                    ],
+                    "spiegazione": "Dopo did: forma base.",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "He ______ a lot of photos. (take)",
+                    "accettate": [
+                        "took"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"He lost\" significa…",
+                    "opzioni": [
+                        "ha perso",
+                        "ha vinto",
+                        "ha riso"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "They made a fantastic bike.",
+                    "accettate": [
+                        "they made a fantastic bike"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 12: the race ______ wet. (be, passato)",
+                    "accettate": [
+                        "was"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 12: they ______ until midnight. (work)",
+                    "accettate": [
+                        "worked"
+                    ],
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 12: \"Did he finish?\" — \"Yes, he ______.\"",
+                    "opzioni": [
+                        "did",
+                        "finished",
+                        "does"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-13"
+        },
+        {
+            "numero": 14,
+            "titolo": "Domani pioverà — going to e will",
+            "giorni": "Giorni 26–27",
+            "descrizione": "Parlare di programmi e previsioni: going to e will, il meteo, la prossima gara e i test.",
+            "teoria": [
+                {
+                    "titolo": "Going to: programmi e intenzioni",
+                    "html": "<p>Per i <strong>programmi già decisi</strong> si usa <strong>be + going to + verbo base</strong>: <em>I'm going to work in MotoGP one day.</em> — Un giorno lavorerò in MotoGP (è la mia intenzione). <em>We are going to test the new bike on Monday.</em></p>\n<p>Going to si usa anche per le previsioni con una <strong>prova davanti agli occhi</strong>: <em>Look at the clouds! It's going to rain.</em> — Guarda le nuvole: sta per piovere.</p>"
+                },
+                {
+                    "titolo": "Will: previsioni e decisioni del momento",
+                    "html": "<p><strong>Will + verbo base</strong> serve per le <strong>previsioni e opinioni</strong> (<em>I think he <strong>will win</strong></em> — penso che vincerà) e per le <strong>decisioni prese sul momento</strong> (<em>The phone is ringing? I'<strong>ll answer</strong>!</em>).</p>\n<p>Forme: <em>will</em> è uguale per tutti (niente -s), si contrae in <strong>'ll</strong>, il negativo è <strong>won't</strong> (= will not): <em>She won't be at the meeting.</em> Dopo will il verbo va alla forma base: <em>he will work</em>, mai <s>he will works</s>.</p>"
+                },
+                {
+                    "titolo": "Il meteo e la gara",
+                    "html": "<p>La domanda: <strong>What's the weather like?</strong> — Che tempo fa? Le risposte: <em>sunny</em> (soleggiato), <em>cloudy</em> (nuvoloso), <em>rainy</em> (piovoso), <em>hot</em> (caldo), <em>cold</em> (freddo).</p>\n<p>In pista il meteo è tutto: <strong>wet</strong> (bagnato) e <strong>dry</strong> (asciutto). <em>A wet race</em> è una gara sul bagnato; se piove il team prepara la moto con le gomme da bagnato. <em>The track is dry now, but it's going to rain: the next race is going to be difficult!</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Il meteo e i programmi",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"It's sunny\" significa…",
+                            "opzioni": [
+                                "c'è il sole",
+                                "piove",
+                                "nevica"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "\"What's the ______ like?\" (che tempo fa?)",
+                            "accettate": [
+                                "weather"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Look at the sky! Tomorrow it's going to ______. (piovere)",
+                            "accettate": [
+                                "rain"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Cold\" significa…",
+                            "opzioni": [
+                                "freddo",
+                                "caldo",
+                                "umido"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I'm ______ to visit my parents on Sunday. (programma deciso)",
+                            "accettate": [
+                                "going"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "La prossima gara e i test.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Wet race\" è…",
+                            "opzioni": [
+                                "una gara sul bagnato",
+                                "una gara annullata",
+                                "una gara corta"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The next ______ is in Barcelona. (gara)",
+                            "accettate": [
+                                "race",
+                                "round"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We are going to ______ the new bike next week. (provare)",
+                            "accettate": [
+                                "test",
+                                "try"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"The track is dry\" significa…",
+                            "opzioni": [
+                                "la pista è asciutta",
+                                "la pista è bagnata",
+                                "la pista è sporca"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Se sta per piovere prima della gara, il team prepara…",
+                            "opzioni": [
+                                "la moto con le gomme da bagnato",
+                                "la moto con le gomme da asciutto",
+                                "niente: aspetta"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 10
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: going to e will",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I am ______ to work in MotoGP one day.",
+                            "accettate": [
+                                "going"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "I think he ______ win the race.",
+                            "opzioni": [
+                                "will",
+                                "is going",
+                                "wins"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "\"I think\" introduce una previsione: will.",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "She ______ be at the meeting tomorrow. (will, negativo)",
+                            "accettate": [
+                                "won't",
+                                "will not"
+                            ],
+                            "spiegazione": "",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Un collega non riesce a portare una cassa. Decidi ora di aiutarlo:",
+                            "opzioni": [
+                                "I'll help you!",
+                                "I'm going to help you tomorrow.",
+                                "I help you yesterday."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Decisione presa sul momento: will.",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "They ______ going to change the engine.",
+                            "accettate": [
+                                "are",
+                                "'re"
+                            ],
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"______ it rain tomorrow?\" (secondo te)",
+                            "opzioni": [
+                                "Will",
+                                "Is",
+                                "Does"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "We are going ______ test the bike on Monday.",
+                            "accettate": [
+                                "to"
+                            ],
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"Won't\" è la forma contratta di \"will not\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"He will works tomorrow\" è corretta.",
+                            "risposta": "F",
+                            "spiegazione": "Dopo will il verbo va alla forma base: he will work.",
+                            "n": 19
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "It's going to rain tomorrow.",
+                            "accettate": [
+                                "it's going to rain tomorrow",
+                                "it is going to rain tomorrow"
+                            ],
+                            "spiegazione": "",
+                            "n": 20
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "I think he will win the race.",
+                            "accettate": [
+                                "i think he will win the race"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "The weather is going to be hot and dry.",
+                            "testo": "Che tempo farà?",
+                            "opzioni": [
+                                "Caldo e asciutto",
+                                "Freddo e bagnato",
+                                "Nuvoloso"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "We are going to test the new tyres on Monday.",
+                            "testo": "Che cosa faranno lunedì?",
+                            "opzioni": [
+                                "Proveranno gomme nuove",
+                                "Cambieranno il motore",
+                                "Laveranno il camion"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "It's going to rain.",
+                            "aiuto": "Sta per piovere.",
+                            "n": 24
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I think we will win.",
+                            "aiuto": "Penso che vinceremo.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "We are going to test the bike tomorrow.",
+                            "aiuto": "Domani proveremo la moto.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "What's the weather like?",
+                            "aiuto": "Che tempo fa?",
+                            "n": 27
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Domani pioverà e la gara sarà bagnata.\"",
+                            "modello": "Tomorrow it's going to rain and the race will be wet.",
+                            "spiegazione": "Accettabile anche \"it will rain\" e \"the race is going to be wet\".",
+                            "n": 28
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi tre programmi per la tua prossima settimana con going to.",
+                            "guida": "Controlla: be (am/is/are) + going to + verbo base in ogni frase?",
+                            "n": 29
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "I'm ______ to study English every day. (intenzione)",
+                    "accettate": [
+                        "going"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "I think it ______ rain.",
+                    "opzioni": [
+                        "will",
+                        "is",
+                        "does"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "They are going ______ change the tyres.",
+                    "accettate": [
+                        "to"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Wet\" significa…",
+                    "opzioni": [
+                        "bagnato",
+                        "asciutto",
+                        "caldo"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "She ______ come tomorrow. (will not)",
+                    "accettate": [
+                        "won't",
+                        "will not"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Sunny\" significa…",
+                    "opzioni": [
+                        "soleggiato",
+                        "nuvoloso",
+                        "piovoso"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The next race is going to be difficult.",
+                    "accettate": [
+                        "the next race is going to be difficult"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 13: we ______ the race last Sunday. (win)",
+                    "accettate": [
+                        "won"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 13: I ______ to the circuit by bus. (go, passato)",
+                    "accettate": [
+                        "went"
+                    ],
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 13: il passato di \"ride\" è…",
+                    "opzioni": [
+                        "rode",
+                        "rided",
+                        "ridden"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 29,
+            "id": "unit-14"
+        },
+        {
+            "numero": 15,
+            "titolo": "Più veloce, il più veloce — i comparativi",
+            "giorni": "Giorni 28–29",
+            "descrizione": "Confrontare: comparativi e superlativi, le gomme soft/medium/hard, i tempi sul giro.",
+            "teoria": [
+                {
+                    "titolo": "Il comparativo: più… di",
+                    "html": "<p>Aggettivi <strong>corti</strong>: si aggiunge <strong>-er</strong> + than: <em>fast → faster than</em> (più veloce di), <em>soft → softer than</em>. Se l'aggettivo è corto con una vocale, la consonante raddoppia: <em>hot → hotter, big → bigger</em>.</p>\n<p>Aggettivi <strong>lunghi</strong>: <strong>more … than</strong>: <em>more difficult than</em> (più difficile di). Irregolari: <em>good → <strong>better</strong></em> (migliore), <em>bad → <strong>worse</strong></em> (peggiore).</p>\n<p>Errore da evitare: il doppio comparativo — <s>more faster</s>. O -er o more, mai insieme.</p>"
+                },
+                {
+                    "titolo": "Il superlativo: il più…",
+                    "html": "<p>Corti: <strong>the …-est</strong>: <em>the fastest rider</em> — il pilota più veloce. Lunghi: <strong>the most …</strong>: <em>the most difficult circuit</em>. Irregolari: <em>the <strong>best</strong></em> (il migliore), <em>the <strong>worst</strong></em> (il peggiore). Il superlativo vuole sempre <strong>the</strong>.</p>"
+                },
+                {
+                    "titolo": "Gomme e tempi sul giro",
+                    "html": "<p>Il lessico delle prestazioni, pane quotidiano al box:</p>\n<table><tr><th>Inglese</th><th>Italiano</th></tr>\n<tr><td>soft / medium / hard (tyre)</td><td>gomma morbida / media / dura</td></tr>\n<tr><td>lap</td><td>giro di pista</td></tr>\n<tr><td>lap time</td><td>tempo sul giro</td></tr>\n<tr><td>grip</td><td>aderenza</td></tr>\n<tr><td>second</td><td>secondo (di tempo)</td></tr></table>\n<p><em>The soft tyre is faster, but the hard tyre is better for a long race: it lasts longer (dura di più). His lap time today is better than yesterday: the bike has got more grip.</em></p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Confrontare le cose",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "My bike is ______ than your bike. (fast)",
+                            "accettate": [
+                                "faster"
+                            ],
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Il comparativo di \"good\" è…",
+                            "opzioni": [
+                                "better",
+                                "gooder",
+                                "more good"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "This exercise is ______ difficult than the first one. (più)",
+                            "accettate": [
+                                "more"
+                            ],
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Worse\" significa…",
+                            "opzioni": [
+                                "peggiore",
+                                "migliore",
+                                "uguale"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Marc is the ______ rider in the team. (veloce, superlativo)",
+                            "accettate": [
+                                "fastest"
+                            ],
+                            "spiegazione": "",
+                            "n": 5
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Le parole del box",
+                    "intro": "Gomme, giri e tempi.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Lap\" significa…",
+                            "opzioni": [
+                                "giro di pista",
+                                "gomma",
+                                "casco"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 6
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "The soft tyre is ______ than the hard tyre. (veloce)",
+                            "accettate": [
+                                "faster"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Grip\" significa…",
+                            "opzioni": [
+                                "aderenza",
+                                "benzina",
+                                "freno"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "His ______ time is one thirty-one point five. (sul giro)",
+                            "accettate": [
+                                "lap"
+                            ],
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "La gomma hard è meglio per una gara lunga perché…",
+                            "opzioni": [
+                                "dura di più",
+                                "è più veloce subito",
+                                "è più leggera"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "This is the ______ bike in the championship! (buona, superlativo)",
+                            "accettate": [
+                                "best"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: comparativi e superlativi",
+                    "intro": "Completa o scegli.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "Il comparativo di \"soft\" è…",
+                            "opzioni": [
+                                "softer",
+                                "more soft",
+                                "softest"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Today is ______ than yesterday. (hot)",
+                            "accettate": [
+                                "hotter"
+                            ],
+                            "spiegazione": "Aggettivo corto con una vocale: la consonante raddoppia.",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Il comparativo di \"bad\" è…",
+                            "opzioni": [
+                                "worse",
+                                "badder",
+                                "more bad"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "This circuit is more ______ than Mugello. (difficile)",
+                            "accettate": [
+                                "difficult"
+                            ],
+                            "spiegazione": "",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He is the ______ mechanic in the paddock. (bravo, superlativo)",
+                            "accettate": [
+                                "best"
+                            ],
+                            "spiegazione": "",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Faster than\" significa…",
+                            "opzioni": [
+                                "più veloce di",
+                                "veloce come",
+                                "il più veloce"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "\"More faster\" è corretto.",
+                            "risposta": "F",
+                            "spiegazione": "Mai doppio comparativo: faster, senza more.",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "vf",
+                            "testo": "Il superlativo vuole sempre \"the\".",
+                            "risposta": "V",
+                            "spiegazione": "",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "The medium tyre is ______ the soft and the hard.",
+                            "opzioni": [
+                                "between",
+                                "more",
+                                "most"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Between = tra (ripasso Unit 7!).",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Ascolta quante volte vuoi, poi scrivi o scegli.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "The soft tyre is faster.",
+                            "accettate": [
+                                "the soft tyre is faster"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "He is the best rider in the world.",
+                            "accettate": [
+                                "he is the best rider in the world"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "His lap time is better today.",
+                            "testo": "Il suo tempo sul giro oggi è…",
+                            "opzioni": [
+                                "migliore",
+                                "peggiore",
+                                "uguale"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "The track is hotter than yesterday.",
+                            "testo": "La pista è…",
+                            "opzioni": [
+                                "più calda di ieri",
+                                "più fredda di ieri",
+                                "più bagnata di ieri"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — ripeti a voce",
+                    "intro": "Ascolta il modello e ripeti ad alta voce.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "The soft tyre is faster.",
+                            "aiuto": "La gomma morbida è più veloce.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "This bike is better than the old one.",
+                            "aiuto": "Questa moto è migliore della vecchia.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "He is the fastest rider.",
+                            "aiuto": "È il pilota più veloce.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "My lap time is worse today.",
+                            "aiuto": "Il mio tempo sul giro oggi è peggiore.",
+                            "n": 28
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "Due produzioni brevi.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"La gomma dura è più lenta ma migliore per la gara.\" (lenta = slow)",
+                            "modello": "The hard tyre is slower but better for the race.",
+                            "spiegazione": "",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Confronta due moto o due piloti che conosci: tre frasi con almeno due comparativi e un superlativo.",
+                            "guida": "Controlla: -er per i corti, more per i lunghi, mai insieme? The davanti al superlativo?",
+                            "n": 30
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "gap",
+                    "testo": "This bike is ______ than that one. (fast)",
+                    "accettate": [
+                        "faster"
+                    ],
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Il comparativo di \"good\" è…",
+                    "opzioni": [
+                        "better",
+                        "more good",
+                        "goodest"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "He is the ______ rider in the team. (bravo)",
+                    "accettate": [
+                        "best"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Lap time\" è…",
+                    "opzioni": [
+                        "il tempo sul giro",
+                        "la fine della gara",
+                        "il giro di prova"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Today is more ______ than yesterday. (difficile)",
+                    "accettate": [
+                        "difficult"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "\"Worse\" significa…",
+                    "opzioni": [
+                        "peggiore",
+                        "migliore",
+                        "più caro"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "The medium tyre is better today.",
+                    "accettate": [
+                        "the medium tyre is better today"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 14: it's ______ to rain. (sta per)",
+                    "accettate": [
+                        "going"
+                    ],
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "Ripasso Unit 14: \"I'll help you\" è…",
+                    "opzioni": [
+                        "una decisione presa sul momento",
+                        "un programma di ieri",
+                        "un passato"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Ripasso Unit 14: she ______ be here tomorrow. (will not)",
+                    "accettate": [
+                        "won't",
+                        "will not"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 30,
+            "id": "unit-15"
+        },
+        {
+            "numero": 16,
+            "titolo": "The interview — il colloquio di lavoro",
+            "giorni": "Giorni 30–31",
+            "descrizione": "Il traguardo: le domande tipiche del colloquio, come presentarti, le frasi di emergenza, la simulazione completa.",
+            "teoria": [
+                {
+                    "titolo": "Le domande tipiche del colloquio",
+                    "html": "<p>Quasi tutti i colloqui girano intorno a queste domande. Imparale, così le riconosci al volo:</p>\n<table><tr><th>Domanda</th><th>Significato</th></tr>\n<tr><td>Tell me about yourself.</td><td>Parlami di te.</td></tr>\n<tr><td>Why do you want this job?</td><td>Perché vuoi questo lavoro?</td></tr>\n<tr><td>What's your experience?</td><td>Che esperienza hai?</td></tr>\n<tr><td>Can you work at weekends?</td><td>Puoi lavorare nei fine settimana?</td></tr>\n<tr><td>When can you start?</td><td>Quando puoi iniziare?</td></tr></table>"
+                },
+                {
+                    "titolo": "Come parlare di te",
+                    "html": "<p>La presentazione perfetta è fatta di frasi corte che conosci già tutte, dalle unità precedenti:</p>\n<p><em>Good morning! My name is… Nice to meet you. I'm Italian and I'm thirty-five years old. I <strong>worked</strong> as a mechanic for ten years. I <strong>can</strong> change tyres, check engines and fix problems fast. I'm precise and I work well in a team. I <strong>love</strong> MotoGP: it's my dream job. I can start on Monday!</em></p>\n<p>Nota <em>worked as a mechanic</em> = ho lavorato come meccanico; <em>dream job</em> = lavoro dei sogni; <em>precise</em> = preciso; <em>careful</em> = attento.</p>"
+                },
+                {
+                    "titolo": "Le frasi di emergenza",
+                    "html": "<p>Se non capisci, niente panico: chiedere è professionale, inventare no.</p>\n<table><tr><th>Inglese</th><th>Quando</th></tr>\n<tr><td>Sorry, can you repeat, please?</td><td>non hai capito</td></tr>\n<tr><td>Can you speak slowly, please?</td><td>parla troppo veloce</td></tr>\n<tr><td>How do you spell it?</td><td>non capisci una parola: fattela dettare</td></tr>\n<tr><td>Thank you for your time.</td><td>per chiudere il colloquio con stile</td></tr></table>"
+                },
+                {
+                    "titolo": "Il ripasso in trenta secondi",
+                    "html": "<p>Il percorso che hai fatto: <em>be</em> e i pronomi (U1–2), plurali e orari (U3), <em>have got</em> (U4), il present simple (U5–6), <em>there is/are</em> e gli attrezzi (U7), <em>can</em> (U8), il present continuous (U9), gli imperativi (U10), <em>some/any</em> (U11), il passato (U12–13), il futuro (U14), i comparativi (U15). Il test finale pesca da tutto: se qualcosa scricchiola, torna a rileggere la teoria di quella unità prima di farlo.</p>"
+                }
+            ],
+            "sezioni": [
+                {
+                    "titolo": "Le frasi del colloquio",
+                    "intro": "Riconosci e completa le domande e le risposte.",
+                    "item": [
+                        {
+                            "tipo": "mc",
+                            "testo": "\"Tell me about yourself\" significa…",
+                            "opzioni": [
+                                "parlami di te",
+                                "dimmi la verità",
+                                "raccontami la gara"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 1
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "\"Why do you ______ this job?\" (volere)",
+                            "accettate": [
+                                "want"
+                            ],
+                            "spiegazione": "",
+                            "n": 2
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"What's your experience?\" — la risposta migliore:",
+                            "opzioni": [
+                                "I worked as a mechanic for ten years.",
+                                "I am experience.",
+                                "Yes, please."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 3
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "\"When can you ______?\" (iniziare)",
+                            "accettate": [
+                                "start"
+                            ],
+                            "spiegazione": "",
+                            "n": 4
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Non hai capito la domanda. Che cosa dici?",
+                            "opzioni": [
+                                "Sorry, can you repeat, please?",
+                                "Goodbye.",
+                                "No."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "Chiedere di ripetere è professionale, non un errore.",
+                            "n": 5
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "\"Can you ______ slowly, please?\" (parlare)",
+                            "accettate": [
+                                "speak"
+                            ],
+                            "spiegazione": "",
+                            "n": 6
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Parlare di te",
+                    "intro": "Le frasi della tua presentazione.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ as a mechanic for ten years. (lavorare, passato)",
+                            "accettate": [
+                                "worked"
+                            ],
+                            "spiegazione": "",
+                            "n": 7
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ change tyres and check engines. (so fare)",
+                            "accettate": [
+                                "can"
+                            ],
+                            "spiegazione": "",
+                            "n": 8
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "\"I work well in a team\" significa…",
+                            "opzioni": [
+                                "lavoro bene in squadra",
+                                "lavoro solo in squadra",
+                                "non lavoro in squadra"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 9
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I'm ______ and careful. (preciso)",
+                            "accettate": [
+                                "precise"
+                            ],
+                            "spiegazione": "",
+                            "n": 10
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ MotoGP: it's my dream job. (amare)",
+                            "accettate": [
+                                "love"
+                            ],
+                            "spiegazione": "",
+                            "n": 11
+                        },
+                        {
+                            "tipo": "mc",
+                            "testo": "Alla fine del colloquio dici:",
+                            "opzioni": [
+                                "Thank you for your time.",
+                                "Give me the job.",
+                                "See you never."
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 12
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Grammatica: il grande ripasso",
+                    "intro": "Otto completamenti, uno per ogni tappa del percorso.",
+                    "item": [
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ a mechanic for ten years. (be, passato)",
+                            "accettate": [
+                                "was"
+                            ],
+                            "spiegazione": "Unit 12: was con I.",
+                            "n": 13
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "He ______ in a workshop in Pesaro. (work, presente)",
+                            "accettate": [
+                                "works"
+                            ],
+                            "spiegazione": "Unit 5: la -s della terza persona.",
+                            "n": 14
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "I ______ got a motorbike licence. (licence = patente)",
+                            "accettate": [
+                                "have",
+                                "'ve"
+                            ],
+                            "spiegazione": "Unit 4: have got.",
+                            "n": 15
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "______ you work at weekends? — Yes, I can.",
+                            "accettate": [
+                                "can"
+                            ],
+                            "spiegazione": "Unit 8: la risposta breve rivela la domanda.",
+                            "n": 16
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "There ______ many teams in the paddock.",
+                            "accettate": [
+                                "are"
+                            ],
+                            "spiegazione": "Unit 7: plurale → are.",
+                            "n": 17
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Next year I'm ______ to work in MotoGP.",
+                            "accettate": [
+                                "going"
+                            ],
+                            "spiegazione": "Unit 14: intenzione → going to.",
+                            "n": 18
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "Yesterday I ______ up at six. (get)",
+                            "accettate": [
+                                "got"
+                            ],
+                            "spiegazione": "Unit 13: get → got.",
+                            "n": 19
+                        },
+                        {
+                            "tipo": "gap",
+                            "testo": "This job is ______ than my old job. (good)",
+                            "accettate": [
+                                "better"
+                            ],
+                            "spiegazione": "Unit 15: good → better.",
+                            "n": 20
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Listening — ascolta e scrivi",
+                    "intro": "Le domande del colloquio, all'ascolto: riconoscerle è metà del lavoro.",
+                    "item": [
+                        {
+                            "tipo": "dettato",
+                            "tts": "Why do you want this job?",
+                            "accettate": [
+                                "why do you want this job"
+                            ],
+                            "spiegazione": "",
+                            "n": 21
+                        },
+                        {
+                            "tipo": "dettato",
+                            "tts": "I can start on Monday.",
+                            "accettate": [
+                                "i can start on monday"
+                            ],
+                            "spiegazione": "",
+                            "n": 22
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Tell me about yourself.",
+                            "testo": "Che cosa devi fare?",
+                            "opzioni": [
+                                "Presentarti",
+                                "Andartene",
+                                "Fare tu una domanda"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 23
+                        },
+                        {
+                            "tipo": "ascolta-mc",
+                            "tts": "Can you work at weekends? Yes, no problem.",
+                            "testo": "La risposta è…",
+                            "opzioni": [
+                                "sì",
+                                "no",
+                                "dipende"
+                            ],
+                            "corretta": 0,
+                            "spiegazione": "",
+                            "n": 24
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Speaking — la simulazione del colloquio",
+                    "intro": "Questa è la prova generale: ripeti ogni frase finché non esce naturale. Sono le frasi che dirai davvero.",
+                    "item": [
+                        {
+                            "tipo": "parla",
+                            "frase": "Good morning! Nice to meet you.",
+                            "aiuto": "Buongiorno! Piacere di conoscerla.",
+                            "n": 25
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I'm a mechanic. I worked in a workshop for ten years.",
+                            "aiuto": "Sono un meccanico. Ho lavorato in officina per dieci anni.",
+                            "n": 26
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I can change tyres very fast.",
+                            "aiuto": "So cambiare le gomme molto velocemente.",
+                            "n": 27
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I love MotoGP and I work well in a team.",
+                            "aiuto": "Amo la MotoGP e lavoro bene in squadra.",
+                            "n": 28
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "I can start on Monday.",
+                            "aiuto": "Posso iniziare lunedì.",
+                            "n": 29
+                        },
+                        {
+                            "tipo": "parla",
+                            "frase": "Thank you for your time.",
+                            "aiuto": "Grazie per il suo tempo.",
+                            "n": 30
+                        }
+                    ]
+                },
+                {
+                    "titolo": "Writing — scrivi tu",
+                    "intro": "L'ultima produzione: la tua presentazione.",
+                    "item": [
+                        {
+                            "tipo": "aperta",
+                            "testo": "Traduci in inglese: \"Voglio questo lavoro perché amo le moto e sono un bravo meccanico.\"",
+                            "modello": "I want this job because I love bikes and I am a good mechanic.",
+                            "spiegazione": "",
+                            "n": 31
+                        },
+                        {
+                            "tipo": "libera",
+                            "testo": "Scrivi la tua presentazione per il colloquio (5-6 frasi): chi sei, la tua esperienza, che cosa sai fare, perché vuoi il lavoro, quando puoi iniziare.",
+                            "guida": "Usa il modello della teoria come traccia. Controlla: worked per l'esperienza passata? can + forma base per le abilità? Frasi corte: meglio semplici e giuste che lunghe e sbagliate.",
+                            "n": 32
+                        }
+                    ]
+                }
+            ],
+            "test": [
+                {
+                    "tipo": "mc",
+                    "testo": "\"Tell me about yourself\" significa…",
+                    "opzioni": [
+                        "parlami di te",
+                        "dimmi dove abiti",
+                        "parlami della gara"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 1
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "I ______ as a mechanic for five years. (work, passato)",
+                    "accettate": [
+                        "worked"
+                    ],
+                    "spiegazione": "",
+                    "n": 2
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "I ______ change tyres and check engines. (so fare)",
+                    "accettate": [
+                        "can"
+                    ],
+                    "spiegazione": "",
+                    "n": 3
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "There ______ a problem with the bike. (singolare)",
+                    "accettate": [
+                        "is"
+                    ],
+                    "spiegazione": "",
+                    "n": 4
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "He ______ the bike every morning. (check)",
+                    "accettate": [
+                        "checks"
+                    ],
+                    "spiegazione": "",
+                    "n": 5
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "We ______ the race last Sunday. (win)",
+                    "accettate": [
+                        "won"
+                    ],
+                    "spiegazione": "",
+                    "n": 6
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "Tomorrow it's ______ to rain.",
+                    "accettate": [
+                        "going"
+                    ],
+                    "spiegazione": "",
+                    "n": 7
+                },
+                {
+                    "tipo": "mc",
+                    "testo": "The soft tyre is ______ than the hard tyre.",
+                    "opzioni": [
+                        "faster",
+                        "fastest",
+                        "more fast"
+                    ],
+                    "corretta": 0,
+                    "spiegazione": "",
+                    "n": 8
+                },
+                {
+                    "tipo": "dettato",
+                    "tts": "When can you start?",
+                    "accettate": [
+                        "when can you start"
+                    ],
+                    "spiegazione": "",
+                    "n": 9
+                },
+                {
+                    "tipo": "gap",
+                    "testo": "\"Have you got a licence?\" — \"Yes, I ______.\"",
+                    "accettate": [
+                        "have"
+                    ],
+                    "spiegazione": "",
+                    "n": 10
+                }
+            ],
+            "totaleItem": 32,
+            "id": "unit-16"
         }
     ]
 };
