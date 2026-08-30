@@ -84,7 +84,7 @@ function caricaProgressi() {
   try { return JSON.parse(localStorage.getItem(CHIAVE_LS)) || {}; }
   catch (e) { return {}; }
 }
-function salvaProgressi(p) { localStorage.setItem(CHIAVE_LS, JSON.stringify(p)); }
+function salvaProgressi(p) { try { localStorage.setItem(CHIAVE_LS, JSON.stringify(p)); } catch (e) {} }
 let prog = caricaProgressi();
 
 function recUnita(uid) { prog[uid] = prog[uid] || { item: {}, test: null, teoria: false }; return prog[uid]; }
@@ -93,6 +93,7 @@ function segnaItem(uid, sez, n, stato) { recUnita(uid).item[sez + '.' + n] = sta
 function testSuperato(uid) { return !!(prog[uid]?.test?.superato); }
 function unitaSbloccata(u) {
   if (u.numero === 1) return true;
+  if (prog[u.id]?._sbloccata) return true;
   const prec = DATI.unita.find(x => x.numero === u.numero - 1);
   return prec ? testSuperato(prec.id) : true;
 }
@@ -140,21 +141,25 @@ function rispostaCombacia(data, accettate) {
 /* --------------------------- voce: TTS e ASR --------------------------- */
 
 function ttsDisponibile() { return 'speechSynthesis' in window; }
-let vociPronte = false;
 if (ttsDisponibile()) {
-  speechSynthesis.onvoiceschanged = () => { vociPronte = true; };
+  speechSynthesis.onvoiceschanged = () => {};
   speechSynthesis.getVoices();
 }
 function parla(testo) {
   if (!ttsDisponibile()) return false;
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(testo);
-  u.lang = 'en-GB';
-  u.rate = 0.9;
-  const voci = speechSynthesis.getVoices();
-  const v = voci.find(x => x.lang === 'en-GB') || voci.find(x => x.lang && x.lang.startsWith('en'));
-  if (v) u.voice = v;
-  speechSynthesis.speak(u);
+  try { speechSynthesis.cancel(); } catch (e) {}
+  // il piccolo ritardo dopo cancel() evita un difetto noto di Chrome su Android
+  // (speak() subito dopo cancel() a volte resta muto)
+  setTimeout(() => {
+    const u = new SpeechSynthesisUtterance(testo);
+    u.lang = 'en-GB';
+    u.rate = 0.9;
+    const voci = speechSynthesis.getVoices();
+    const v = voci.find(x => x.lang === 'en-GB') || voci.find(x => x.lang && x.lang.startsWith('en'));
+    if (v) u.voice = v;
+    try { speechSynthesis.resume(); } catch (e) {}
+    speechSynthesis.speak(u);
+  }, 80);
   return true;
 }
 const ASR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
@@ -237,7 +242,18 @@ function vistaHome() {
       el('div', { class: 'barra' }, el('div', { style: `width:${perc}%` }))
     );
     if (sbloccata) card.addEventListener('click', () => vai({ vista: 'unita', uid: u.id }));
-    else card.append(el('div', { class: 'mini', style: 'margin-top:.4rem' }, `Si sblocca superando il test della Unit ${u.numero - 1} (minimo ${DATI.sogliaTest}%).`));
+    else {
+      card.append(el('div', { class: 'mini', style: 'margin-top:.4rem' }, `Si sblocca superando il test della Unit ${u.numero - 1} (minimo ${DATI.sogliaTest}%).`));
+      card.append(el('div', { style: 'margin-top:.5rem' },
+        el('button', { style: 'font-size:.82rem;padding:.35rem .7rem', onclick: (ev) => {
+          ev.stopPropagation();
+          if (confirm(`Sbloccare la Unit ${u.numero} senza il test della Unit ${u.numero - 1}? Il consiglio resta di seguire l'ordine.`)) {
+            recUnita(u.id)._sbloccata = true;
+            salvaProgressi(prog);
+            render();
+          }
+        } }, 'Sblocca senza test')));
+    }
     box.append(card);
   }
   box.append(el('div', { class: 'azioni' },
@@ -300,7 +316,6 @@ function vistaTeoria(uid) {
   ));
   for (const t of u.teoria) {
     const c = el('div', { class: 'card teoria' }, el('h2', {}, t.titolo), el('div', { html: t.html }));
-    // pulsante ascolto per gli esempi in corsivo
     if (ttsDisponibile()) {
       const esempi = [...c.querySelectorAll('em')].map(e => e.textContent).filter(x => /[a-z]/i.test(x) && x.split(' ').length > 1);
       if (esempi.length) c.append(el('button', { class: 'audio', onclick: () => parla(esempi.join('. ')) }, '🔊 Ascolta gli esempi'));
@@ -360,7 +375,7 @@ function schedaItem(it, salva, avanti, inTest) {
     salva(stato);
     if (!inTest && blocco) card.append(blocco);
     card.querySelectorAll('input,textarea,button.opzione,button[data-azione]').forEach(x => x.disabled = true);
-    if (inTest) { setTimeout(avanti, stato.s === 'ok' ? 350 : 350); }
+    if (inTest) { setTimeout(avanti, 350); }
     else card.append(el('div', { class: 'azioni' }, el('button', { class: 'primario', onclick: avanti }, 'Avanti ›')));
   };
   const esitoOk = extra => el('div', { class: 'esito ok' }, el('div', { class: 'titolo-esito' }, 'Giusto!'), extra ? el('div', { html: extra }) : null);
@@ -369,12 +384,19 @@ function schedaItem(it, salva, avanti, inTest) {
     el('div', {}, 'Risposta corretta: ', el('strong', { html: corretta })),
     extra ? el('div', { html: extra }) : null);
 
-  const bottoneAudio = (testoTts) => el('button', { class: 'audio', 'data-azione': '1', onclick: () => {
-    if (!parla(testoTts)) alert('Audio non disponibile su questo browser.');
-  } }, '🔊 Ascolta');
+  const bottoneAudio = (testoTts) => el('button', { class: 'audio', 'data-azione': '1', onclick: () => { parla(testoTts); } }, '🔊 Ascolta');
+
+  // via d'uscita per chi non sente l'audio: mostra la frase in chiaro
+  const aiutoAudio = (frase) => {
+    const box = el('div', { style: 'margin-top:.35rem' });
+    box.append(el('button', { style: 'font-size:.8rem;padding:.3rem .6rem;border:none;background:none;color:var(--acc);text-decoration:underline;cursor:pointer', 'data-azione': '1', onclick: () => {
+      box.replaceChildren(el('div', { class: 'mini' }, 'La frase è: “' + frase + '”'));
+    } }, 'Non senti l\'audio? Mostra la frase'));
+    return box;
+  };
 
   if (it.tipo === 'mc' || it.tipo === 'ascolta-mc') {
-    if (it.tipo === 'ascolta-mc') card.append(bottoneAudio(it.tts), ttsDisponibile() ? null : el('div', { class: 'mini' }, 'Audio non disponibile: la frase era “' + it.tts + '”.'));
+    if (it.tipo === 'ascolta-mc') card.append(bottoneAudio(it.tts), aiutoAudio(it.tts));
     if (it.testo) card.append(el('div', { class: 'testo-item', html: it.testo }));
     it.opzioni.forEach((opz, i) => {
       card.append(el('button', { class: 'opzione', html: String.fromCharCode(97 + i) + ') ' + opz, onclick: ev => {
@@ -400,21 +422,27 @@ function schedaItem(it, salva, avanti, inTest) {
   } else if (it.tipo === 'gap' || it.tipo === 'dettato') {
     if (it.tipo === 'dettato') {
       card.append(el('div', { class: 'testo-item' }, 'Ascolta e scrivi quello che senti.'));
-      card.append(bottoneAudio(it.tts));
-      if (!ttsDisponibile()) card.append(el('div', { class: 'mini' }, 'Audio non disponibile su questo browser: copia la frase “' + it.tts + '”.'));
+      card.append(bottoneAudio(it.tts), aiutoAudio(it.tts));
     } else {
       card.append(el('div', { class: 'testo-item', html: it.testo }));
     }
     const inp = el('input', { type: 'text', autocomplete: 'off', autocapitalize: 'off', placeholder: 'Scrivi qui…', style: 'margin-top:.6rem' });
+    const avviso = el('div', { class: 'mini', style: 'color:var(--ko);margin-top:.3rem' });
     const controlla = () => {
-      if (!inp.value.trim()) return;
+      if (!inp.value.trim()) {
+        avviso.textContent = it.tipo === 'dettato'
+          ? 'Scrivi quello che senti. Se l\'audio non parte, tocca "Mostra la frase" qui sopra e ricopiala.'
+          : 'Scrivi la risposta prima di controllare.';
+        return;
+      }
+      avviso.textContent = '';
       const acc = it.accettate || [it.tts];
       const giusta = rispostaCombacia(inp.value, acc);
       dopo({ s: giusta ? 'ok' : 'ko', d: inp.value.trim(), c: acc[0] },
         giusta ? esitoOk(it.spiegazione) : esitoKo(acc[0], it.spiegazione));
     };
     inp.addEventListener('keydown', e => { if (e.key === 'Enter') controlla(); });
-    card.append(inp, el('div', { class: 'azioni' }, el('button', { class: 'primario', 'data-azione': '1', onclick: controlla }, 'Controlla')));
+    card.append(inp, el('div', { class: 'azioni' }, el('button', { class: 'primario', 'data-azione': '1', onclick: controlla }, 'Controlla')), avviso);
 
   } else if (it.tipo === 'parla') {
     card.append(
@@ -608,11 +636,13 @@ function vistaEsporta() {
 /* ============================== avvio ============================== */
 
 async function avvia() {
-  try {
-    const r = await fetch('esercizi.json', { cache: 'no-cache' });
-    if (r.ok) DATI = await r.json();
-  } catch (e) { /* file:// o offline: fallback */ }
   if (!DATI && window.ESERCIZI) DATI = window.ESERCIZI;
+  if (!DATI) {
+    try {
+      const r = await fetch('esercizi.json', { cache: 'no-cache' });
+      if (r.ok) DATI = await r.json();
+    } catch (e) { /* file:// o offline: fallback */ }
+  }
   if (!DATI) {
     document.getElementById('app').innerHTML =
       '<div class="card"><strong>Esercizi non trovati.</strong><p>Manca <code>esercizi.json</code>: esegui <code>php dati/genera.php</code> e ricarica.</p></div>';

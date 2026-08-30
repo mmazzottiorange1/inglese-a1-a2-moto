@@ -3,7 +3,7 @@
    arrivano subito) con riserva in cache; il resto prima in cache. */
 'use strict';
 
-const CACHE = 'inglese-a1a2-moto-v1';
+const CACHE = 'inglese-a1a2-moto-v3';
 const FILE_BASE = ['./', './index.html', './esercizi.json', './esercizi.js'];
 
 self.addEventListener('install', (ev) => {
